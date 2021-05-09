@@ -2,16 +2,18 @@
 
 # functions:
 
-# yes/no
+# yes no
+# num check
+# not blank?
 # circle
 # square
 # rectangle
 # triangle
+# instructions
 
 # main stuff
 
-# 'dictionary'
-
+# 'dictionaries'
 
 # printing
 

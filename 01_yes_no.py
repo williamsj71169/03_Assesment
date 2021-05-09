@@ -1,8 +1,9 @@
 
+
 # checks that user has entered yes / no to a question
 def yes_no(question):
 
-    # the 2 end avalible answers
+    # the 2 end available answers
     to_check = ["yes", "no"]
 
     valid = False
