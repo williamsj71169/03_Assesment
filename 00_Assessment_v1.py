@@ -1,4 +1,5 @@
 # inputs
+# import pandas
 
 # functions:
 
@@ -99,20 +100,27 @@ valid_shapes = [
 
 # instructions(y_n)
 
+# play_again loop start
+play_again = ""
+while play_again == "":
 
-shape = "invalid choice"
-while shape == "invalid choice":
-    shape = input("What shape would you like?").lower()
-    shape = string_check(shape, valid_shapes)
+    shape = "invalid choice"
+    while shape == "invalid choice":
+        shape = input("What shape would you like?").lower()
+        shape = string_check(shape, valid_shapes)
 
-print(shape)
+    print(shape)
 
+    get_int = num_check("How long is side 1?", "Please enter an number more than 0\n", float)
 
-get_int = num_check("How long is side 1?", "Please enter an number more than 0\n", float)
+    get_cost = num_check("How long is side 2?", "Please enter an number more than 0\n", float)
 
-get_cost = num_check("How long is side 2?", "Please enter an number more than 0\n", float)
+    # printing
 
+    # write to file
 
-# printing
+    print()
+    play_again = (input("Push <enter> for more questions or any other key to quit"))
+    print()
 
-# write to file
+# end
