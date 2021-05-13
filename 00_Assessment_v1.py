@@ -1,4 +1,4 @@
-# inputs
+# imports
 # import pandas
 
 # functions:
@@ -77,10 +77,25 @@ def string_check(choice, options):
 # rectangle
 # triangle
 # calculations
-# instructions
+
+# function to show instructions if necessary
+def instructions(options):
+    show_help = "invalid choice"
+    while show_help == "invalid choice":
+        show_help = yes_no("*** Would you like to read the instructions? (y/n) ")
+        show_help = string_check(show_help, options)
+
+    if show_help == "Yes":
+        print()
+        print("*** Instructions ***")
+        print()
+        print("* Answer all the questions asked in the way you will be asked to. *")
+
+    return ""
+
 # export
 
-# main stuff
+# *********main stuff*********
 
 # 'dictionaries'
 
@@ -98,7 +113,7 @@ valid_shapes = [
     ["circle", "circ", "c"]
 ]
 
-# instructions(y_n)
+instructions(y_n)
 
 # play_again loop start
 play_again = ""
