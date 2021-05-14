@@ -75,19 +75,18 @@ def get_shape():
         elif desired_shape == "t" or desired_shape == "tri" or desired_shape == "triangle":
             print("Triiiang")
 
-            side_1 = num_check("How long is side 1?", "Please enter an number more than 0\n", float)
-            side_2 = num_check("How long is side 2?", "Please enter an number more than 0\n", float)
-            side_3 = num_check("How long is side 1?", "Please enter an number more than 0\n", float)
+            side_1 = num_check("How long is side 1? ", "Please enter an number more than 0\n", float)
+            side_2 = num_check("How long is side 2? ", "Please enter an number more than 0\n", float)
+            side_3 = num_check("How long is side 3? ", "Please enter an number more than 0\n", float)
 
-            print("side 1 is {} {}".format(side_1, unit_choice))
-            print("side 2 is {} {}".format(side_2, unit_choice))
-            print("side 3 is {} {}".format(side_3, unit_choice))
+            print("side 1 is {} {}".format(side_1, unit))
+            print("side 2 is {} {}".format(side_2, unit))
+            print("side 3 is {} {}".format(side_3, unit))
             
-            area = ("n/a")
-            print(area)
+            print("area is n/a")
             
             perimeter = side_1 + side_2 + side_3
-            print("perimeter is {} {}".format(perimeter, unit_choice))
+            print("perimeter is {} {}".format(perimeter, unit))
 
         else:
             print("Sorry, That is not a valid shape.")
@@ -117,9 +116,9 @@ units_options = [
     ["m"]
 ]
 
-unit_choice = "invalid choice"
-while unit_choice == "invalid choice":
-    unit_choice = input("Please choose your units (mm / cm / m)?").lower()
-    unit_choice = string_check(unit_choice, units_options)
+unit = "invalid choice"
+while unit == "invalid choice":
+    unit = input("Please choose your units (mm / cm / m)?").lower()
+    unit = string_check(unit, units_options)
 
 shape_order = get_shape()
