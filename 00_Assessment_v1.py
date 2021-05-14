@@ -70,7 +70,6 @@ def string_check(choice, options):
         return "invalid choice"
 
 
-# not blank?
 # get shape
 # circle
 # square
@@ -126,9 +125,9 @@ while play_again == "":
 
     print(shape)
 
-    get_int = num_check("How long is side 1?", "Please enter an number more than 0\n", float)
+    get_side_1 = num_check("How long is side 1?", "Please enter an number more than 0\n", float)
 
-    get_cost = num_check("How long is side 2?", "Please enter an number more than 0\n", float)
+    get_side_2 = num_check("How long is side 2?", "Please enter an number more than 0\n", float)
 
     # printing
 
