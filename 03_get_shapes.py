@@ -69,34 +69,81 @@ def get_shape():
         # ask user for desired snack and put in lowercase
         desired_shape = input("Shape: ").lower()
 
+        # check that string is valid
+        shape_choice = string_check(desired_shape, valid_shapes)
+        print("Shape Choice: ", shape_choice)
+
         if desired_shape == "xxx" or desired_shape == "no":
             return shape_info_list
+
+        # ***** Triiiang *****
 
         elif desired_shape == "t" or desired_shape == "tri" or desired_shape == "triangle":
             print("Triiiang")
 
-            side_1 = num_check("How long is side 1? ", "Please enter an number more than 0\n", float)
-            side_2 = num_check("How long is side 2? ", "Please enter an number more than 0\n", float)
-            side_3 = num_check("How long is side 3? ", "Please enter an number more than 0\n", float)
+            t_side_1 = num_check("How long is side 1? ", "Please enter an number more than 0\n", float)
+            t_side_2 = num_check("How long is side 2? ", "Please enter an number more than 0\n", float)
+            t_side_3 = num_check("How long is side 3? ", "Please enter an number more than 0\n", float)
 
-            print("side 1 is {} {}".format(side_1, unit))
-            print("side 2 is {} {}".format(side_2, unit))
-            print("side 3 is {} {}".format(side_3, unit))
+            print("side 1 is {} {}".format(t_side_1, unit))
+            print("side 2 is {} {}".format(t_side_2, unit))
+            print("side 3 is {} {}".format(t_side_3, unit))
             
             print("area is n/a")
             
-            perimeter = side_1 + side_2 + side_3
+            perimeter = t_side_1 + t_side_2 + t_side_3
+            print("perimeter is {} {}".format(perimeter, unit))
+
+        # ***** squarring *****
+
+        elif desired_shape == "s" or desired_shape == "squ" or desired_shape == "square":
+            print("squarring")
+
+            s_side = num_check("How long is one side? ", "Please enter an number more than 0\n", float)
+
+            print("side 1 is {} {}".format(s_side, unit))
+
+            area = s_side * s_side
+            print("area is {} {}squared".format(area, unit))
+
+            perimeter = s_side * 4
+            print("perimeter is {} {}".format(perimeter, unit))
+
+        # ***** Reeeectannnn *****
+
+        elif desired_shape == "r" or desired_shape == "rect" or desired_shape == "rectangle":
+            print("Reeeectannnn")
+
+            r_side_12 = num_check("How long is the length? ", "Please enter an number more than 0\n", float)
+            r_side_34 = num_check("How long is the width? ", "Please enter an number more than 0\n", float)
+
+            print("side 1/2 is {} {}".format(r_side_12, unit))
+            print("side 3/4 is {} {}".format(r_side_34, unit))
+
+            area = r_side_12 * r_side_34
+            print("area is {} {}squared".format(area, unit))
+
+            perimeter = r_side_12 + r_side_12 + r_side_34 + r_side_34
+            print("perimeter is {} {}".format(perimeter, unit))
+
+        # ***** cirrical *****
+
+        elif desired_shape == "c" or desired_shape == "circ" or desired_shape == "circle":
+            print("cirrical")
+
+            c_radius = num_check("What is the radius (half of diameter)? ",
+                                 "Please enter an number more than 0\n", float)
+
+            print("the radius is {} {}".format(c_radius, unit))
+
+            area = 3.1415926 * c_radius / 2
+            print("area is {} {}squared".format(area, unit))
+
+            perimeter = 2 * 3.1415926 * c_radius
             print("perimeter is {} {}".format(perimeter, unit))
 
         else:
             print("Sorry, That is not a valid shape.")
-
-        # remove white space around snack
-        desired_shape = desired_shape.strip()
-
-        # check that string is valid
-        shape_choice = string_check(desired_shape, valid_shapes)
-        print("Shape Choice: ", shape_choice)
 
         # check snack amount it valid (less than 5)
 
