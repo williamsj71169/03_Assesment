@@ -1,6 +1,7 @@
+import math
 
 
-def string_check(choice, options):
+def string_check(choice, options, ):
 
     is_valid = ""
     chosen = ""
@@ -78,7 +79,7 @@ def get_shape():
 
         # ***** Triiiang *****
 
-        elif desired_shape == "t" or desired_shape == "tri" or desired_shape == "triangle":
+        if desired_shape == "t" or desired_shape == "tri" or desired_shape == "triangle":
             print("Triiiang")
 
             t_side_1 = num_check("How long is side 1? ", "Please enter an number more than 0\n", float)
@@ -89,10 +90,16 @@ def get_shape():
             print("side 2 is {} {}".format(t_side_2, unit))
             print("side 3 is {} {}".format(t_side_3, unit))
             
-            print("area is n/a")
-            
             perimeter = t_side_1 + t_side_2 + t_side_3
             print("perimeter is {} {}".format(perimeter, unit))
+
+            semi_perimeter = perimeter / 2
+            part_a = semi_perimeter - t_side_1
+            part_b = semi_perimeter - t_side_2
+            part_c = semi_perimeter - t_side_3
+
+            area = math.sqrt(semi_perimeter * part_a * part_b * part_c)
+            print("area is {:.3f} {}".format(area, unit))
 
         # ***** squarring *****
 
@@ -104,7 +111,7 @@ def get_shape():
             print("side 1 is {} {}".format(s_side, unit))
 
             area = s_side * s_side
-            print("area is {} {}squared".format(area, unit))
+            print("area is {} {} squared".format(area, unit))
 
             perimeter = s_side * 4
             print("perimeter is {} {}".format(perimeter, unit))
@@ -115,13 +122,13 @@ def get_shape():
             print("Reeeectannnn")
 
             r_side_12 = num_check("How long is the length? ", "Please enter an number more than 0\n", float)
-            r_side_34 = num_check("How long is the width? ", "Please enter an number more than 0\n", float)
+            r_side_34 = num_check("How wide is the width? ", "Please enter an number more than 0\n", float)
 
             print("side 1/2 is {} {}".format(r_side_12, unit))
             print("side 3/4 is {} {}".format(r_side_34, unit))
 
             area = r_side_12 * r_side_34
-            print("area is {} {}squared".format(area, unit))
+            print("area is {} {} squared".format(area, unit))
 
             perimeter = r_side_12 + r_side_12 + r_side_34 + r_side_34
             print("perimeter is {} {}".format(perimeter, unit))
@@ -137,7 +144,7 @@ def get_shape():
             print("the radius is {} {}".format(c_radius, unit))
 
             area = 3.1415926 * c_radius / 2
-            print("area is {} {}squared".format(area, unit))
+            print("area is {} {} squared".format(area, unit))
 
             perimeter = 2 * 3.1415926 * c_radius
             print("perimeter is {} {}".format(perimeter, unit))
@@ -167,5 +174,8 @@ unit = "invalid choice"
 while unit == "invalid choice":
     unit = input("Please choose your units (mm / cm / m)?").lower()
     unit = string_check(unit, units_options)
+    if unit == "invalid choice":
+        print("This is not a valid unit.")
+
 
 shape_order = get_shape()
