@@ -173,7 +173,7 @@ units_options = [
 unit = "invalid choice"
 while unit == "invalid choice":
     unit = input("Please choose your units (mm / cm / m)?").lower()
-    unit = string_check(unit, units_options)
+    unit = string_check(unit, units_options).lower()
     if unit == "invalid choice":
         print("This is not a valid unit.")
 
