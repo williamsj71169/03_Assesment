@@ -143,7 +143,7 @@ def get_shape():
 
             print("the radius is {} {}".format(c_radius, unit))
 
-            area = 3.1415926 * c_radius / 2
+            area = c_radius ** 2 * 3.1415926
             print("area is {} {} squared".format(area, unit))
 
             perimeter = 2 * 3.1415926 * c_radius

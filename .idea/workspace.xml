@@ -62,12 +62,11 @@
       <file leaf-file-name="03_get_shapes.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03_get_shapes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+            <state relative-caret-position="463">
+              <caret line="121" column="33" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
               <folding>
                 <element signature="e#56#659#0" expanded="false" />
                 <element signature="e#708#971#0" expanded="false" />
-                <element signature="e#1015#5269#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -96,7 +95,7 @@
       <file leaf-file-name="01_MMF_v11.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../01_MMF/Programing/01_MMF_v11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="3587">
               <caret line="370" column="41" selection-start-line="370" selection-start-column="41" selection-end-line="370" selection-end-column="41" />
               <folding>
                 <element signature="e#135#479#0" expanded="false" />
@@ -169,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -190,6 +188,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -453,14 +452,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="935" y="0" width="991" height="1047" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.014358974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14941302" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="961" y="31" width="958" height="1008" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -563,7 +562,85 @@
           <folding>
             <element signature="e#56#659#0" expanded="false" />
             <element signature="e#708#971#0" expanded="false" />
-            <element signature="e#1015#5269#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../02_FRC/00_FRC_v10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="e#580#922#0" expanded="false" />
+            <element signature="e#992#1200#0" expanded="false" />
+            <element signature="e#1252#1278#0" expanded="false" />
+            <element signature="e#1383#2892#0" expanded="false" />
+            <element signature="e#2968#3121#0" expanded="false" />
+            <element signature="e#3207#5152#0" expanded="false" />
+            <element signature="e#5208#5259#0" expanded="false" />
+            <element signature="e#5319#5925#0" expanded="false" />
+            <element signature="e#6001#6403#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../01_MMF/Programing/01_MMF_v11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3587">
+          <caret line="370" column="41" selection-start-line="370" selection-start-column="41" selection-end-line="370" selection-end-column="41" />
+          <folding>
+            <element signature="e#135#479#0" expanded="false" />
+            <element signature="e#545#975#0" expanded="false" />
+            <element signature="e#1095#1362#0" expanded="false" />
+            <element signature="e#1427#1913#0" expanded="false" />
+            <element signature="e#1973#2579#0" expanded="false" />
+            <element signature="e#2623#4555#0" expanded="false" />
+            <element signature="e#4607#4633#0" expanded="false" />
+            <element signature="e#4712#5085#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_sandpit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#59#662#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Assessment_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#123#499#0" expanded="false" />
+            <element signature="e#655#918#0" expanded="false" />
+            <element signature="e#975#1581#0" expanded="false" />
+            <element signature="e#1726#2128#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_get_shapes_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="e#59#662#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_get_shapes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#56#659#0" expanded="false" />
+            <element signature="e#708#971#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -643,7 +720,6 @@
           <folding>
             <element signature="e#56#659#0" expanded="false" />
             <element signature="e#708#971#0" expanded="false" />
-            <element signature="e#1015#5269#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1013,14 +1089,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03_get_shapes_0.2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/03_get_shapes_0.2.py" />
     <entry file="file://$PROJECT_DIR$/00_sandpit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1046,7 +1115,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../01_MMF/Programing/01_MMF_v11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="3587">
           <caret line="370" column="41" selection-start-line="370" selection-start-column="41" selection-end-line="370" selection-end-column="41" />
           <folding>
             <element signature="e#135#479#0" expanded="false" />
@@ -1063,12 +1132,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03_get_shapes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+        <state relative-caret-position="463">
+          <caret line="121" column="33" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
           <folding>
             <element signature="e#56#659#0" expanded="false" />
             <element signature="e#708#971#0" expanded="false" />
-            <element signature="e#1015#5269#0" expanded="false" />
           </folding>
         </state>
       </provider>
