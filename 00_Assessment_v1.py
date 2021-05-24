@@ -70,13 +70,6 @@ def string_check(choice, options):
         return "invalid choice"
 
 
-# get shape
-# circle
-# square
-# rectangle
-# triangle
-# calculations
-
 # function to show instructions if necessary
 def instructions(options):
     show_help = "invalid choice"
