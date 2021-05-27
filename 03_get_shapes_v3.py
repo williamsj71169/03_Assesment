@@ -28,14 +28,10 @@ def string_check(choice, options, ):
         return "invalid choice"
 
 
-def int_check(question, num_type):
-
-    error = "Please enter a number more than 0"
-
+def num_check(question, error, num_type):
     valid = False
     while not valid:
 
-        # ask user for number and check it is valid
         try:
             response = num_type(input(question))
 
@@ -44,7 +40,6 @@ def int_check(question, num_type):
             else:
                 return response
 
-        # if an integer in not entered, display an error
         except ValueError:
             print(error)
 
