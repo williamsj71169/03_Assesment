@@ -74,7 +74,7 @@ def string_check(choice, options):
 def instructions(options):
     show_help = "invalid choice"
     while show_help == "invalid choice":
-        show_help = yes_no("*** Would you like to read the instructions? (y/n) ")
+        show_help = yes_no("*** Would you like to read the instructions? (y/n) *** ")
         show_help = string_check(show_help, options)
 
     if show_help == "Yes":
