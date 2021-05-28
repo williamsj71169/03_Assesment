@@ -56,7 +56,13 @@ def get_shape():
         ["triangle", "t", "tri"],
         ["square", "s", "squ"],
         ["rectangle", "rect", "r"],
-        ["circle", "circ", "c"]
+        ["circle", "circ", "c"],
+        ["parallelogram", "paro", "p"]
+    ]
+
+    bh_or_sides = [
+        ["base and height", "b&h", "b & h", "bh", "b"],
+        ["sides", "s", "side"]
     ]
 
     # holds snack order for a single user
@@ -79,27 +85,67 @@ def get_shape():
 
         # ***** Triiiang *****
 
-        if shape_choice == "Triangle":
+        if shape_choice == "Triangle" or shape_choice == "Parallelogram":
             print("Triiiang")
+            print("parrrooolll")
 
-            t_side_1 = num_check("How long is side 1? ", "Please enter an number more than 0\n", float)
-            t_side_2 = num_check("How long is side 2? ", "Please enter an number more than 0\n", float)
-            t_side_3 = num_check("How long is side 3? ", "Please enter an number more than 0\n", float)
+            desired_loop = ""
+            while desired_loop != "xxx" or desired_loop != "no":
 
-            print("side 1 is {} {}".format(t_side_1, unit))
-            print("side 2 is {} {}".format(t_side_2, unit))
-            print("side 3 is {} {}".format(t_side_3, unit))
-            
-            perimeter = t_side_1 + t_side_2 + t_side_3
-            print("perimeter is {} {}".format(perimeter, unit))
+                desired_enter = input("Do You have the base and height, or the sides?").lower()
 
-            semi_perimeter = perimeter / 2
-            part_a = semi_perimeter - t_side_1
-            part_b = semi_perimeter - t_side_2
-            part_c = semi_perimeter - t_side_3
+                enter_choice = string_check(desired_enter, bh_or_sides)
+                print("Your Choice: ", enter_choice)
 
-            area = math.sqrt(semi_perimeter * part_a * part_b * part_c)
-            print("area is {:.3f} {}".format(area, unit))
+                if enter_choice == "Sides":
+
+                    t_side_1 = num_check("How long is side 1? ", "Please enter an number more than 0\n", float)
+                    t_side_2 = num_check("How long is side 2? ", "Please enter an number more than 0\n", float)
+                    if shape_choice == "Triangle":
+                        t_side_3 = num_check("How long is side 3? ", "Please enter an number more than 0\n", float)
+
+                    print("side 1 is {} {}".format(t_side_1, unit))
+                    print("side 2 is {} {}".format(t_side_2, unit))
+                    if shape_choice == "Triangle":
+                        print("side 3 is {} {}".format(t_side_3, unit))
+
+                    if shape_choice == "Triangle":
+                        perimeter = t_side_1 + t_side_2 + t_side_3
+                    else:
+                        perimeter = t_side_1 + t_side_1 + t_side_2 + t_side_2
+                    print("perimeter is {} {}".format(perimeter, unit))
+
+                    semi_perimeter = perimeter / 2
+                    part_a = semi_perimeter - t_side_1
+                    part_b = semi_perimeter - t_side_2
+                    part_c = semi_perimeter - t_side_3
+
+                    if shape_choice == "Triangle":
+                        area = math.sqrt(semi_perimeter * part_a * part_b * part_c)
+                    else:
+                        area = ("n/a")
+                    print("area is {} {}".format(area, unit))
+
+                elif enter_choice == "Base And Height":
+
+                    base = num_check("What is the base?", "Please enter an number more than 0\n", float)
+                    height = num_check("What is the height?", "Please enter an number more than 0\n", float)
+
+                    if shape_choice == "Triangle":
+                        perimeter = ("n/a")
+                    else:
+                        perimeter_1 = base + height
+                        perimeter = perimeter_1 * 2
+                    print("perimeter is {} {}".format(perimeter, unit))
+
+                    if shape_choice == "Triangle":
+                        area = base/2 * height
+                    else:
+                        area = base * height
+                    print("area is {} {}".format(area, unit))
+
+                else:
+                    print("Sorry, That is not a valid input.")
 
         # ***** cirrical *****
 
@@ -111,11 +157,11 @@ def get_shape():
 
             print("the radius is {} {}".format(c_radius, unit))
 
-            area = c_radius ** 2 * 3.1415926
-            print("area is {} {} squared".format(area, unit))
-
             perimeter = 2 * 3.1415926 * c_radius
             print("perimeter is {} {}".format(perimeter, unit))
+
+            area = c_radius ** 2 * 3.1415926
+            print("area is {} {} squared".format(area, unit))
 
         # ***** Reeeectannnn / squarring *****
 
@@ -124,21 +170,21 @@ def get_shape():
             print("Reeeectannnn")
 
             r_side_12 = num_check("How long is it? ", "Please enter an number more than 0\n", float)
-            if shape_choice == "Rectangle":
+            if shape_choice == "Rectangle" or shape_choice == "Parallelogram":
                 r_side_34 = num_check("How wide is it? ", "Please enter an number more than 0\n", float)
 
             print("side 1/2 is {} {}".format(r_side_12, unit))
 
-            if shape_choice == "Rectangle":
+            if shape_choice == "Rectangle" or shape_choice == "Parallelogram":
                 print("side 3/4 is {} {}".format(r_side_34, unit))
             else:
                 r_side_34 = r_side_12
 
-            area = r_side_12 * r_side_34
-            print("area is {} {} squared".format(area, unit))
-
             perimeter = r_side_12 + r_side_12 + r_side_34 + r_side_34
             print("perimeter is {} {}".format(perimeter, unit))
+
+            area = r_side_12 * r_side_34
+            print("area is {} {} squared".format(area, unit))
 
         else:
             print("Sorry, That is not a valid shape.")
