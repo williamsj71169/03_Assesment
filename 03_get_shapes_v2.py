@@ -44,6 +44,25 @@ def num_check(question, error, num_type):
             print(error)
 
 
+def yes_no(question):
+
+    # the 2 end available answers
+    to_check = ["yes", "no"]
+
+    valid = False
+    while not valid:
+
+        response = input(question).lower()
+
+        for var_item in to_check:
+            if response == var_item:
+                return response
+            elif response == var_item[0]:
+                return var_item
+
+        print("Please enter either yes or no...\n")
+
+
 # Gets list of shapes
 def get_shape():
 
@@ -99,10 +118,18 @@ def get_shape():
 
                 if enter_choice == "Sides":
 
-                    t_side_1 = num_check("How long is side 1? ", "Please enter an number more than 0\n", float)
-                    t_side_2 = num_check("How long is side 2? ", "Please enter an number more than 0\n", float)
+                    print()
+                    int_float = yes_no("Does it have any .'s ?")
+                    if int_float == "Yes":
+                        num_type = float
+                    else:
+                        num_type = int
+                    print()
+
+                    t_side_1 = num_check("How long is side 1? ", "Please enter an number more than 0\n", num_type)
+                    t_side_2 = num_check("How long is side 2? ", "Please enter an number more than 0\n", num_type)
                     if shape_choice == "Triangle":
-                        t_side_3 = num_check("How long is side 3? ", "Please enter an number more than 0\n", float)
+                        t_side_3 = num_check("How long is side 3? ", "Please enter an number more than 0\n", num_type)
 
                     print("side 1 is {} {}".format(t_side_1, unit))
                     print("side 2 is {} {}".format(t_side_2, unit))
@@ -128,8 +155,16 @@ def get_shape():
 
                 elif enter_choice == "Base And Height":
 
-                    base = num_check("What is the base?", "Please enter an number more than 0\n", float)
-                    height = num_check("What is the height?", "Please enter an number more than 0\n", float)
+                    print()
+                    int_float = yes_no("Does it have any .'s ?")
+                    if int_float == "Yes":
+                        num_type = int
+                    else:
+                        num_type = float
+                    print()
+
+                    base = num_check("What is the base?", "Please enter an number more than 0\n", num_type)
+                    height = num_check("What is the height?", "Please enter an number more than 0\n", num_type)
 
                     if shape_choice == "Triangle":
                         perimeter = ("n/a")
@@ -152,8 +187,16 @@ def get_shape():
         elif shape_choice == "Circle":
             print("cirrical")
 
+            print()
+            int_float = yes_no("Does it have any .'s ?")
+            if int_float == "Yes":
+                num_type = int
+            else:
+                num_type = float
+            print()
+
             c_radius = num_check("What is the radius (half of diameter)? ",
-                                 "Please enter an number more than 0\n", float)
+                                 "Please enter an number more than 0\n", num_type)
 
             print("the radius is {} {}".format(c_radius, unit))
 
@@ -169,9 +212,17 @@ def get_shape():
             print("squarring")
             print("Reeeectannnn")
 
-            r_side_12 = num_check("How long is it? ", "Please enter an number more than 0\n", float)
+            print()
+            int_float = yes_no("Does it have any .'s ?")
+            if int_float == "Yes":
+                num_type = int
+            else:
+                num_type = float
+            print()
+
+            r_side_12 = num_check("How long is it? ", "Please enter an number more than 0\n", num_type)
             if shape_choice == "Rectangle" or shape_choice == "Parallelogram":
-                r_side_34 = num_check("How wide is it? ", "Please enter an number more than 0\n", float)
+                r_side_34 = num_check("How wide is it? ", "Please enter an number more than 0\n", num_type)
 
             print("side 1/2 is {} {}".format(r_side_12, unit))
 
