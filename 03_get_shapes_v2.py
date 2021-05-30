@@ -151,13 +151,14 @@ def get_shape():
                         area = math.sqrt(semi_perimeter * part_a * part_b * part_c)
                     else:
                         area = ("n/a")
-                    print("area is {} {}".format(area, unit))
+                    print("area is {} {} squared".format(area, unit))
+                    break
 
                 elif enter_choice == "Base And Height":
 
                     print()
                     int_float = yes_no("Does it have any .'s ?")
-                    if int_float == "Yes":
+                    if int_float == "No":
                         num_type = int
                     else:
                         num_type = float
@@ -177,7 +178,7 @@ def get_shape():
                         area = base/2 * height
                     else:
                         area = base * height
-                    print("area is {} {}".format(area, unit))
+                    print("area is {} {} squared".format(area, unit))
 
                 else:
                     print("Sorry, That is not a valid input.")
@@ -189,7 +190,7 @@ def get_shape():
 
             print()
             int_float = yes_no("Does it have any .'s ?")
-            if int_float == "Yes":
+            if int_float == "No":
                 num_type = int
             else:
                 num_type = float
@@ -214,7 +215,7 @@ def get_shape():
 
             print()
             int_float = yes_no("Does it have any .'s ?")
-            if int_float == "Yes":
+            if int_float == "No":
                 num_type = int
             else:
                 num_type = float
