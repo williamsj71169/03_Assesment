@@ -100,7 +100,8 @@ def get_shape():
         print("Shape Choice: ", shape_choice)
 
         if desired_shape == "xxx" or desired_shape == "no":
-            return shape_info_list
+            print()
+            # return shape_info_list
 
         # ***** Triiiang *****
 
@@ -191,7 +192,6 @@ def get_shape():
         elif shape_choice == "Square" or shape_choice == "Rectangle":
             squrec = shape_squrec()
 
-
         else:
             print("Sorry, That is not a valid shape.")
 
@@ -204,6 +204,8 @@ def get_shape():
         # check that snack is not the exit code before adding
         if shape_choice != "xxx" and shape_choice != "invalid choice" and shape_choice != "no":
             shape_info_list.append(shape_row)
+
+        return(shape_choice)
 
 
 def shape_circle():
@@ -230,6 +232,7 @@ def shape_circle():
 
     area = c_radius ** 2 * 3.1415926
     print("area is {} {} squared".format(area, unit))
+    return()
 
 
 def shape_squrec():
@@ -245,12 +248,12 @@ def shape_squrec():
     print()
 
     r_side_12 = num_check("How long is it? ", "Please enter an number more than 0\n", num_type)
-    if shape_choice == "Rectangle":
+    if get_shape == "Rectangle":
         r_side_34 = num_check("How wide is it? ", "Please enter an number more than 0\n", num_type)
 
     print("side 1/2 is {} {}".format(r_side_12, unit))
 
-    if shape_choice == "Rectangle":
+    if get_shape == "Rectangle":
         print("side 3/4 is {} {}".format(r_side_34, unit))
     else:
         r_side_34 = r_side_12
@@ -260,6 +263,8 @@ def shape_squrec():
 
     area = r_side_12 * r_side_34
     print("area is {} {} squared".format(area, unit))
+
+    return()
 
 
 # valid options for payment method
