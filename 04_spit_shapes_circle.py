@@ -63,6 +63,32 @@ def yes_no(question):
         print("Please enter either yes or no...\n")
 
 
+def shape_circle():
+
+    # ***** cirrical *****
+
+    print("cirrical")
+
+    print()
+    int_float = yes_no("Does it have any .'s ?")
+    if int_float == "No":
+        num_type = int
+    else:
+        num_type = float
+    print()
+
+    c_radius = num_check("What is the radius (half of diameter)? ",
+                         "Please enter an number more than 0\n", num_type)
+
+    print("the radius is {} {}".format(c_radius, unit))
+
+    perimeter = 2 * 3.1415926 * c_radius
+    print("perimeter is {} {}".format(perimeter, unit))
+
+    area = c_radius ** 2 * 3.1415926
+    print("area is {} {} squared".format(area, unit))
+
+
 # Gets list of shapes
 def get_shape():
 
@@ -183,29 +209,8 @@ def get_shape():
                 else:
                     print("Sorry, That is not a valid input.")
 
-        # ***** cirrical *****
-
         elif shape_choice == "Circle":
-            print("cirrical")
-
-            print()
-            int_float = yes_no("Does it have any .'s ?")
-            if int_float == "No":
-                num_type = int
-            else:
-                num_type = float
-            print()
-
-            c_radius = num_check("What is the radius (half of diameter)? ",
-                                 "Please enter an number more than 0\n", num_type)
-
-            print("the radius is {} {}".format(c_radius, unit))
-
-            perimeter = 2 * 3.1415926 * c_radius
-            print("perimeter is {} {}".format(perimeter, unit))
-
-            area = c_radius ** 2 * 3.1415926
-            print("area is {} {} squared".format(area, unit))
+            circle = shape_circle()
 
         # ***** Reeeectannnn / squarring *****
 
