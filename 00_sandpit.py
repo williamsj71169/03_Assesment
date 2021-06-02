@@ -1,9 +1,11 @@
 # functions go here
 
+
 def demo_thing(question):
 
     response = input(question)
     return response
+
 
 def thing_two():
     example = demo_thing("Greeting? ")
@@ -14,9 +16,3 @@ def thing_two():
 greeting = thing_two()
 
 print(greeting)
-
-
-
-
-
-
