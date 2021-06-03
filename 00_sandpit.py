@@ -1,18 +1,17 @@
 # functions go here
 
 
-def demo_thing(question):
+def demo_thing(animal):
 
-    response = input(question)
+    response = input("Are you a fluffy {}? ".format(animal))
     return response
 
 
-def thing_two():
-    example = demo_thing("Greeting? ")
-    return example
+
 
 # Main routine
 
-greeting = thing_two()
+animal = input("animal? ")
 
-print(greeting)
+if animal == "dog" or animal == "cat":
+    fur = demo_thing(animal)

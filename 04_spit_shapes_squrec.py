@@ -101,7 +101,7 @@ def get_shape():
 
         if desired_shape == "xxx" or desired_shape == "no":
             print()
-            # return shape_info_list
+            return shape_info_list
 
         # ***** Triiiang *****
 
@@ -205,7 +205,7 @@ def get_shape():
         if shape_choice != "xxx" and shape_choice != "invalid choice" and shape_choice != "no":
             shape_info_list.append(shape_row)
 
-        return(shape_choice)
+        # return(shape_choice)
 
 
 def shape_circle():

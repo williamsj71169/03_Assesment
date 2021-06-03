@@ -23,22 +23,33 @@
       <file leaf-file-name="00_sandpit.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_sandpit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="136">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="04_spit_shapes_squrec.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="00_sandpit_v2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00_sandpit_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04_spit_shapes_squrec.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04_spit_shapes_squrec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="192" column="34" selection-start-line="192" selection-start-column="34" selection-end-line="192" selection-end-column="34" />
               <folding>
                 <element signature="e#56#659#0" expanded="false" />
                 <element signature="e#708#968#0" expanded="false" />
                 <element signature="e#998#1374#0" expanded="false" />
+                <element signature="e#2594#5921#0" expanded="false" />
                 <element signature="e#6623#7230#0" expanded="false" />
               </folding>
             </state>
@@ -180,8 +191,8 @@
         <option value="$PROJECT_DIR$/04_spit_shapes_circle.py" />
         <option value="$PROJECT_DIR$/04_spit_shapes.py" />
         <option value="$PROJECT_DIR$/03_get_shapes_v2.py" />
-        <option value="$PROJECT_DIR$/00_sandpit.py" />
         <option value="$PROJECT_DIR$/04_spit_shapes_squrec.py" />
+        <option value="$PROJECT_DIR$/00_sandpit.py" />
       </list>
     </option>
   </component>
@@ -201,7 +212,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -214,13 +225,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../02_FRC/00_FRC_v10.py" />
@@ -230,7 +235,7 @@
       <recent name="C:\Users\williamsj71169\OneDrive - Massey High School\!! School !!\12_Com\01_Programming\03_Assesment" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.04_spit_shapes_squrec">
+  <component name="RunManager" selected="Python.00_sandpit">
     <configuration default="false" name="03_get_shapes_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -459,8 +464,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.04_spit_shapes_squrec" />
-        <item index="1" class="java.lang.String" itemvalue="Python.00_sandpit" />
+        <item index="0" class="java.lang.String" itemvalue="Python.00_sandpit" />
+        <item index="1" class="java.lang.String" itemvalue="Python.04_spit_shapes_squrec" />
         <item index="2" class="java.lang.String" itemvalue="Python.04_spit_shapes_circle" />
         <item index="3" class="java.lang.String" itemvalue="Python.03_get_shapes_v2" />
         <item index="4" class="java.lang.String" itemvalue="Python.00_Assessment_v1" />
@@ -481,7 +486,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="937" y="0" width="990" height="1047" extended-state="0" />
+    <frame x="937" y="0" width="990" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.018461538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -489,7 +494,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41622198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="961" y="31" width="958" height="1008" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41622198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="961" y="31" width="958" height="1008" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -633,11 +638,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/04_spit_shapes_squrec.py</url>
-          <line>102</line>
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/04_spit_shapes_squrec.py</url>
           <line>255</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
@@ -657,14 +657,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_sandpit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_Assessment_v1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1220,24 +1212,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_sandpit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04_spit_shapes_squrec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="192" column="34" selection-start-line="192" selection-start-column="34" selection-end-line="192" selection-end-column="34" />
           <folding>
             <element signature="e#56#659#0" expanded="false" />
             <element signature="e#708#968#0" expanded="false" />
             <element signature="e#998#1374#0" expanded="false" />
+            <element signature="e#2594#5921#0" expanded="false" />
             <element signature="e#6623#7230#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_sandpit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_sandpit_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
