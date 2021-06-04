@@ -63,6 +63,11 @@ def yes_no(question):
         print("Please enter either yes or no...\n")
 
 
+# rounding function
+def round_up(amount, round_to):
+    return int(math.ceil(amount / round_to)) * round_to
+
+
 def shape_squrec(shape):
 
     # ***** Reeeectannnn / squarring *****
@@ -290,5 +295,8 @@ while unit == "invalid choice":
     unit = string_check(unit, units_options).lower()
     if unit == "invalid choice":
         print("This is not a valid unit.")
+
+# ask user for rounding
+round_to = num_check("Round to nearest...? ", "Can't be zero", int)
 
 shape_order = get_shape()
