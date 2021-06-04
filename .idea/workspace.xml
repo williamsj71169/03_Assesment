@@ -23,34 +23,42 @@
       <file leaf-file-name="00_sandpit.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_sandpit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="00_sandpit_v2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/00_sandpit_v2.py">
+      <file leaf-file-name="04_spit_shapes_tripar.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04_spit_shapes_tripar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="04_spit_shapes_squrec.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04_spit_shapes_squrec.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="192" column="34" selection-start-line="192" selection-start-column="34" selection-end-line="192" selection-end-column="34" />
+            <state relative-caret-position="153">
+              <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
               <folding>
                 <element signature="e#56#659#0" expanded="false" />
                 <element signature="e#708#968#0" expanded="false" />
                 <element signature="e#998#1374#0" expanded="false" />
-                <element signature="e#2594#5921#0" expanded="false" />
-                <element signature="e#6623#7230#0" expanded="false" />
+                <element signature="e#1514#2461#0" expanded="false" />
+                <element signature="e#2489#3096#0" expanded="false" />
+                <element signature="e#3130#6176#0" expanded="false" />
+                <element signature="e#6220#7894#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04_spit_shapes_squrec_v2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04_spit_shapes_squrec_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="177" column="60" selection-start-line="177" selection-start-column="60" selection-end-line="177" selection-end-column="60" />
+              <folding>
+                <element signature="e#56#659#0" expanded="false" />
+                <element signature="e#708#968#0" expanded="false" />
+                <element signature="e#998#1371#0" expanded="false" />
+                <element signature="e#1403#2306#0" expanded="false" />
+                <element signature="e#2334#2941#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -104,7 +112,7 @@
       <file leaf-file-name="03_get_shapes_v2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03_get_shapes_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2958">
+            <state relative-caret-position="536">
               <caret line="227" column="62" selection-start-line="227" selection-start-column="62" selection-end-line="227" selection-end-column="62" />
               <folding>
                 <element signature="e#56#659#0" expanded="false" />
@@ -115,39 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="04_spit_shapes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04_spit_shapes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2992">
-              <caret line="229" column="42" selection-start-line="229" selection-start-column="42" selection-end-line="229" selection-end-column="42" />
-              <folding>
-                <element signature="e#56#659#0" expanded="false" />
-                <element signature="e#708#968#0" expanded="false" />
-                <element signature="e#998#1374#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="04_spit_shapes_circle.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04_spit_shapes_circle.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2992">
-              <caret line="229" column="42" selection-start-line="229" selection-start-column="42" selection-end-line="229" selection-end-column="42" />
-              <folding>
-                <element signature="e#56#659#0" expanded="false" />
-                <element signature="e#708#968#0" expanded="false" />
-                <element signature="e#998#1371#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="00_FRC_v10.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../02_FRC/00_FRC_v10.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="312">
+              <caret line="295" column="29" selection-start-line="295" selection-start-column="29" selection-end-line="295" selection-end-column="29" />
               <folding>
                 <element signature="e#235#499#0" expanded="false" />
                 <element signature="e#580#922#0" expanded="false" />
@@ -155,7 +135,6 @@
                 <element signature="e#1383#2892#0" expanded="false" />
                 <element signature="e#2968#3121#0" expanded="false" />
                 <element signature="e#3207#5152#0" expanded="false" />
-                <element signature="e#5208#5259#0" expanded="false" />
                 <element signature="e#5319#5925#0" expanded="false" />
                 <element signature="e#6001#6403#0" expanded="false" />
               </folding>
@@ -191,8 +170,12 @@
         <option value="$PROJECT_DIR$/04_spit_shapes_circle.py" />
         <option value="$PROJECT_DIR$/04_spit_shapes.py" />
         <option value="$PROJECT_DIR$/03_get_shapes_v2.py" />
-        <option value="$PROJECT_DIR$/04_spit_shapes_squrec.py" />
         <option value="$PROJECT_DIR$/00_sandpit.py" />
+        <option value="$PROJECT_DIR$/04_spit_shapes_squrec.py" />
+        <option value="$PROJECT_DIR$/04_spit_shapes_squrec_v2.py" />
+        <option value="$PROJECT_DIR$/00_sandpit_v2.py" />
+        <option value="$PROJECT_DIR$/../02_FRC/00_FRC_v10.py" />
+        <option value="$PROJECT_DIR$/04_spit_shapes_tripar.py" />
       </list>
     </option>
   </component>
@@ -228,48 +211,14 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../02_FRC/00_FRC_v10.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/04_spit_shapes_squrec_v2.py" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\williamsj71169\OneDrive - Massey High School\!! School !!\12_Com\01_Programming\03_Assesment" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.00_sandpit">
-    <configuration default="false" name="03_get_shapes_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="03_Assesment" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_get_shapes_v2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="00_Assessment_v1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="03_Assesment" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_Assessment_v1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.04_spit_shapes_tripar">
     <configuration default="false" name="04_spit_shapes_circle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -317,6 +266,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="03_Assesment" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_sandpit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="04_spit_shapes_squrec_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="03_Assesment" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_spit_shapes_squrec_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="04_spit_shapes_tripar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="03_Assesment" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_spit_shapes_tripar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -456,19 +439,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.03_get_shapes_v2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.00_Assessment_v1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.04_spit_shapes_circle" />
-      <item index="3" class="java.lang.String" itemvalue="Python.04_spit_shapes_squrec" />
-      <item index="4" class="java.lang.String" itemvalue="Python.00_sandpit" />
+      <item index="0" class="java.lang.String" itemvalue="Python.04_spit_shapes_circle" />
+      <item index="1" class="java.lang.String" itemvalue="Python.04_spit_shapes_squrec" />
+      <item index="2" class="java.lang.String" itemvalue="Python.00_sandpit" />
+      <item index="3" class="java.lang.String" itemvalue="Python.04_spit_shapes_squrec_v2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.04_spit_shapes_tripar" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.00_sandpit" />
-        <item index="1" class="java.lang.String" itemvalue="Python.04_spit_shapes_squrec" />
-        <item index="2" class="java.lang.String" itemvalue="Python.04_spit_shapes_circle" />
-        <item index="3" class="java.lang.String" itemvalue="Python.03_get_shapes_v2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.00_Assessment_v1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.04_spit_shapes_tripar" />
+        <item index="1" class="java.lang.String" itemvalue="Python.04_spit_shapes_squrec_v2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.00_sandpit" />
+        <item index="3" class="java.lang.String" itemvalue="Python.04_spit_shapes_squrec" />
+        <item index="4" class="java.lang.String" itemvalue="Python.04_spit_shapes_circle" />
       </list>
     </recent_temporary>
   </component>
@@ -486,7 +469,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="937" y="0" width="990" height="1047" extended-state="1" />
+    <frame x="937" y="0" width="990" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.018461538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -494,7 +477,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41622198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="961" y="31" width="958" height="1008" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08644611" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="961" y="31" width="958" height="1008" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -516,7 +499,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31590182" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="961" y="31" width="958" height="1008" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41622198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="961" y="31" width="958" height="1008" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.018461538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -623,21 +606,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/04_spit_shapes_squrec.py</url>
-          <line>237</line>
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/04_spit_shapes_squrec.py</url>
-          <line>210</line>
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/04_spit_shapes_squrec.py</url>
-          <line>103</line>
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/04_spit_shapes_squrec.py</url>
           <line>255</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
@@ -651,39 +619,47 @@
           <line>207</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/04_spit_shapes_squrec.py</url>
+          <line>191</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/04_spit_shapes_squrec.py</url>
+          <line>237</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/04_spit_shapes_squrec.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/04_spit_shapes_squrec_v2.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/04_spit_shapes_squrec_v2.py</url>
+          <line>252</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/04_spit_shapes_squrec_v2.py</url>
+          <line>268</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/04_spit_shapes_squrec_v2.py</url>
+          <line>286</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="82" />
+      <option name="time" value="99" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_Assessment_v1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#123#499#0" expanded="false" />
-            <element signature="e#655#918#0" expanded="false" />
-            <element signature="e#975#1581#0" expanded="false" />
-            <element signature="e#1657#2063#0" expanded="false" />
-            <element signature="e#2168#2205#0" expanded="false" />
-            <element signature="e#2237#2358#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_get_shapes_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <element signature="e#56#659#0" expanded="false" />
-            <element signature="e#708#968#0" expanded="false" />
-            <element signature="e#998#1374#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03_get_shapes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -702,7 +678,6 @@
             <element signature="e#1383#2892#0" expanded="false" />
             <element signature="e#2968#3121#0" expanded="false" />
             <element signature="e#3207#5152#0" expanded="false" />
-            <element signature="e#5208#5259#0" expanded="false" />
             <element signature="e#5319#5925#0" expanded="false" />
             <element signature="e#6001#6403#0" expanded="false" />
           </folding>
@@ -778,7 +753,6 @@
             <element signature="e#1383#2892#0" expanded="false" />
             <element signature="e#2968#3121#0" expanded="false" />
             <element signature="e#3207#5152#0" expanded="false" />
-            <element signature="e#5208#5259#0" expanded="false" />
             <element signature="e#5319#5925#0" expanded="false" />
             <element signature="e#6001#6403#0" expanded="false" />
           </folding>
@@ -847,7 +821,6 @@
             <element signature="e#1383#2892#0" expanded="false" />
             <element signature="e#2968#3121#0" expanded="false" />
             <element signature="e#3207#5152#0" expanded="false" />
-            <element signature="e#5208#5259#0" expanded="false" />
             <element signature="e#5319#5925#0" expanded="false" />
             <element signature="e#6001#6403#0" expanded="false" />
           </folding>
@@ -916,7 +889,6 @@
             <element signature="e#1383#2892#0" expanded="false" />
             <element signature="e#2968#3121#0" expanded="false" />
             <element signature="e#3207#5152#0" expanded="false" />
-            <element signature="e#5208#5259#0" expanded="false" />
             <element signature="e#5319#5925#0" expanded="false" />
             <element signature="e#6001#6403#0" expanded="false" />
           </folding>
@@ -987,7 +959,6 @@
             <element signature="e#1383#2892#0" expanded="false" />
             <element signature="e#2968#3121#0" expanded="false" />
             <element signature="e#3207#5152#0" expanded="false" />
-            <element signature="e#5208#5259#0" expanded="false" />
             <element signature="e#5319#5925#0" expanded="false" />
             <element signature="e#6001#6403#0" expanded="false" />
           </folding>
@@ -1036,7 +1007,6 @@
             <element signature="e#1383#2892#0" expanded="false" />
             <element signature="e#2968#3121#0" expanded="false" />
             <element signature="e#3207#5152#0" expanded="false" />
-            <element signature="e#5208#5259#0" expanded="false" />
             <element signature="e#5319#5925#0" expanded="false" />
             <element signature="e#6001#6403#0" expanded="false" />
           </folding>
@@ -1131,18 +1101,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03_get_shapes_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2958">
-          <caret line="227" column="62" selection-start-line="227" selection-start-column="62" selection-end-line="227" selection-end-column="62" />
-          <folding>
-            <element signature="e#56#659#0" expanded="false" />
-            <element signature="e#708#968#0" expanded="false" />
-            <element signature="e#998#1374#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_Assessment_v1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -1154,44 +1112,6 @@
             <element signature="e#1657#2063#0" expanded="false" />
             <element signature="e#2168#2205#0" expanded="false" />
             <element signature="e#2237#2358#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../02_FRC/00_FRC_v10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="e#235#499#0" expanded="false" />
-            <element signature="e#580#922#0" expanded="false" />
-            <element signature="e#992#1200#0" expanded="false" />
-            <element signature="e#1383#2892#0" expanded="false" />
-            <element signature="e#2968#3121#0" expanded="false" />
-            <element signature="e#3207#5152#0" expanded="false" />
-            <element signature="e#5208#5259#0" expanded="false" />
-            <element signature="e#5319#5925#0" expanded="false" />
-            <element signature="e#6001#6403#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_num_checker_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04_spit_shapes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2992">
-          <caret line="229" column="42" selection-start-line="229" selection-start-column="42" selection-end-line="229" selection-end-column="42" />
-          <folding>
-            <element signature="e#56#659#0" expanded="false" />
-            <element signature="e#708#968#0" expanded="false" />
-            <element signature="e#998#1374#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1212,10 +1132,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/04_spit_shapes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="229" column="42" selection-start-line="229" selection-start-column="42" selection-end-line="229" selection-end-column="42" />
+          <folding>
+            <element signature="e#56#659#0" expanded="false" />
+            <element signature="e#708#968#0" expanded="false" />
+            <element signature="e#998#1374#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/04_spit_shapes_squrec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="192" column="34" selection-start-line="192" selection-start-column="34" selection-end-line="192" selection-end-column="34" />
+        <state relative-caret-position="-1283">
+          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
           <folding>
             <element signature="e#56#659#0" expanded="false" />
             <element signature="e#708#968#0" expanded="false" />
@@ -1226,7 +1158,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_sandpit.py">
+    <entry file="file://$PROJECT_DIR$/00_sandpit_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../02_FRC/00_FRC_v10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="295" column="29" selection-start-line="295" selection-start-column="29" selection-end-line="295" selection-end-column="29" />
+          <folding>
+            <element signature="e#235#499#0" expanded="false" />
+            <element signature="e#580#922#0" expanded="false" />
+            <element signature="e#992#1200#0" expanded="false" />
+            <element signature="e#1383#2892#0" expanded="false" />
+            <element signature="e#2968#3121#0" expanded="false" />
+            <element signature="e#3207#5152#0" expanded="false" />
+            <element signature="e#5319#5925#0" expanded="false" />
+            <element signature="e#6001#6403#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_get_shapes_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="227" column="62" selection-start-line="227" selection-start-column="62" selection-end-line="227" selection-end-column="62" />
+          <folding>
+            <element signature="e#56#659#0" expanded="false" />
+            <element signature="e#708#968#0" expanded="false" />
+            <element signature="e#998#1374#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_num_checker_v2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -1234,11 +1203,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_sandpit_v2.py">
+    <entry file="file://$PROJECT_DIR$/00_sandpit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_spit_shapes_squrec_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="177" column="60" selection-start-line="177" selection-start-column="60" selection-end-line="177" selection-end-column="60" />
+          <folding>
+            <element signature="e#56#659#0" expanded="false" />
+            <element signature="e#708#968#0" expanded="false" />
+            <element signature="e#998#1371#0" expanded="false" />
+            <element signature="e#1403#2306#0" expanded="false" />
+            <element signature="e#2334#2941#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_spit_shapes_tripar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+          <folding>
+            <element signature="e#56#659#0" expanded="false" />
+            <element signature="e#708#968#0" expanded="false" />
+            <element signature="e#998#1374#0" expanded="false" />
+            <element signature="e#1514#2461#0" expanded="false" />
+            <element signature="e#2489#3096#0" expanded="false" />
+            <element signature="e#3130#6176#0" expanded="false" />
+            <element signature="e#6220#7894#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -6,9 +6,6 @@ def demo_thing(teeth, claws):
     print("Teeth: {} ".format(teeth))
     print("Claws: {} ".format(claws))
 
-
-
-
 # Main routine
 
 animal = input("animal? ")

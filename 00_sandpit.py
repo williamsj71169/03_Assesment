@@ -6,9 +6,6 @@ def demo_thing(animal):
     response = input("Are you a fluffy {}? ".format(animal))
     return response
 
-
-
-
 # Main routine
 
 animal = input("animal? ")
