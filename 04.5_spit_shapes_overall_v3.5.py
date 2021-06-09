@@ -64,13 +64,7 @@ def yes_no(question):
         print("Please enter either yes or no...\n")
 
 
-# rounding function
-def round_up(amount, round_to):
-    return int(math.ceil(amount / round_to)) * round_to
-
-
 def shape_squrec(shape):
-
 
     # ***** Reeeectannnn / squarring *****
 
@@ -79,21 +73,25 @@ def shape_squrec(shape):
 
     round_to = num_check("Round to nearest...? ", "Can't be zero", int)
 
-    r_side_12 = num_check("How long is it? ", "Please enter an number more than 0\n", float)
+    side_12 = num_check("How long is it? ", "Please enter an number more than 0\n", float)
     if shape == "Rectangle":
-        r_side_34 = num_check("How wide is it? ", "Please enter an number more than 0\n", float)
+        side_34 = num_check("How wide is it? ", "Please enter an number more than 0\n", float)
 
+    r_side_12 = round(side_12, round_to)
     print("side 1/2 is {} {}".format(r_side_12, unit))
 
     if shape == "Rectangle":
+        r_side_34 = round(side_34, round_to)
         print("side 3/4 is {} {}".format(r_side_34, unit))
     else:
         r_side_34 = r_side_12
 
-    perimeter = r_side_12 + r_side_12 + r_side_34 + r_side_34
+    v1_perimeter = r_side_12 + r_side_12 + r_side_34 + r_side_34
+    perimeter = round(v1_perimeter, round_to)
     print("perimeter is {} {}".format(perimeter, unit))
 
-    area = r_side_12 * r_side_34
+    v1_area = r_side_12 * r_side_34
+    area = round(v1_area, round_to)
     print("area is {} {} squared".format(area, unit))
 
     return()
@@ -109,15 +107,15 @@ def shape_circle():
 
     c_radius = num_check("What is the radius (half of diameter)? ", "Please enter an number more than 0\n", float)
 
-    c_radius_2 = round_up(c_radius, round_to)
+    c_radius_2 = round(c_radius, round_to)
     print("the radius is {} {}".format(c_radius_2, unit))
 
     perimeter = 2 * 3.1415926 * c_radius
-    c_perimeter = round_up(perimeter, round_to)
+    c_perimeter = round(perimeter, round_to)
     print("perimeter is {} {}".format(c_perimeter, unit))
 
     area = c_radius ** 2 * 3.1415926
-    c_area = round_up(area, round_to)
+    c_area = round(area, round_to)
     print("area - {}".format(area))
     print("area is {} {} squared".format(c_area, unit))
     return()
@@ -152,19 +150,19 @@ def shape_tripar(shape2):
             if shape2 == "Triangle":
                 t_side_3 = num_check("How long is side 3? ", "Please enter an number more than 0\n", float)
 
-            t_side_12 = round_up(t_side_1, round_to)
-            t_side_22 = round_up(t_side_2, round_to)
+            t_side_12 = round(t_side_1, round_to)
+            t_side_22 = round(t_side_2, round_to)
             print("side 1 is {} {}".format(t_side_12, unit))
             print("side 2 is {} {}".format(t_side_22, unit))
             if shape2 == "Triangle":
-                t_side_32 = round_up(t_side_3, round_to)
+                t_side_32 = round(t_side_3, round_to)
                 print("side 3 is {} {}".format(t_side_32, unit))
 
             if shape2 == "Triangle":
                 perimeter = t_side_1 + t_side_2 + t_side_3
             else:
                 perimeter = t_side_1 + t_side_1 + t_side_2 + t_side_2
-            pt_perimeter = round_up(perimeter, round_to)
+            pt_perimeter = round(perimeter, round_to)
             print("perimeter is {} {}".format(pt_perimeter, unit))
 
             if shape2 == "Triangle":
@@ -177,7 +175,7 @@ def shape_tripar(shape2):
 
             if shape2 == "Triangle":
                 pt_area = math.sqrt(semi_perimeter * part_a * part_b * part_c)
-                area = round_up(pt_area, round_to)
+                area = round(pt_area, round_to)
             else:
                 area = "n/a"
             print("area is {} {} squared".format(area, unit))
@@ -188,8 +186,8 @@ def shape_tripar(shape2):
             base = num_check("What is the base?", "Please enter an number more than 0\n", float)
             height = num_check("What is the height?", "Please enter an number more than 0\n", float)
 
-            base_2 = round_up(base, round_to)
-            height_2 = round_up(height, round_to)
+            base_2 = round(base, round_to)
+            height_2 = round(height, round_to)
             print("the base is {} {} squared".format(base_2, unit))
             print("the height is {} {} squared".format(height_2, unit))
 
@@ -198,14 +196,14 @@ def shape_tripar(shape2):
             else:
                 perimeter_1 = base + height
                 pt_perimeter = perimeter_1 * 2
-                perimeter = round_up(pt_perimeter, round_to)
+                perimeter = round(pt_perimeter, round_to)
             print("perimeter is {} {}".format(perimeter, unit))
 
             if shape2 == "Triangle":
                 area = base / 2 * height
             else:
                 area = base * height
-            pt_area = round_up(area, round_to)
+            pt_area = round(area, round_to)
             print("area is {} {} squared".format(pt_area, unit))
 
         else:
