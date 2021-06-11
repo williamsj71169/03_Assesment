@@ -83,6 +83,8 @@ def shape_squrec(shape):
     side_12 = num_check("How long is it? ", "Please enter an number more than 0\n", float)
     if shape == "Rectangle":
         side_34 = num_check("How wide is it? ", "Please enter an number more than 0\n", float)
+    else:
+        side_34 = 0
 
     r_side_12 = round(side_12, round_to)
     print("side 1/2 is {} {}".format(r_side_12, unit))
@@ -126,7 +128,6 @@ def shape_circle():
 
     area = c_radius ** 2 * 3.1415926
     c_area = round(area, round_to)
-    print("area - {}".format(area))
     print("area is {} {} squared".format(c_area, unit))
     return()
 
@@ -159,6 +160,8 @@ def shape_tripar(shape2):
             t_side_2 = num_check("How long is side 2? ", "Please enter an number more than 0\n", float)
             if shape2 == "Triangle":
                 t_side_3 = num_check("How long is side 3? ", "Please enter an number more than 0\n", float)
+            else:
+                t_side_3 = 0
 
             t_side_12 = round(t_side_1, round_to)
             t_side_22 = round(t_side_2, round_to)
@@ -181,6 +184,10 @@ def shape_tripar(shape2):
                 part_b = semi_perimeter - t_side_2
                 part_c = semi_perimeter - t_side_3
             else:
+                semi_perimeter = 0
+                part_a = 0
+                part_b = 0
+                part_c = 0
                 print()
 
             if shape2 == "Triangle":
@@ -299,6 +306,32 @@ units_options = [
     ["m"]
 ]
 
+# initialize lists (to make data-frames in due course)
+all_shapes = []
+all_tickets = []
+
+# snack lists...
+popcorn = []
+water = []
+pita_chips = []
+mms = []
+orange_juice = []
+
+snack_lists = [popcorn, water, pita_chips, mms, orange_juice]
+
+# store surcharge multiplier
+surcharge_multi_list = []
+
+# lists to store summary data...
+summary_headings = ["Shape"]
+summary_data = []
+
+# data frame dictionary
+movie_data_dict = {
+    'Shape': all_shapes,
+}
+
+
 unit = "invalid choice"
 while unit == "invalid choice":
     unit = input("Please choose your units (mm / cm / m)?").lower()
@@ -309,6 +342,17 @@ while unit == "invalid choice":
 
 shape_order = get_shape()
 
+all_shapes.append(get_shape())
+
+for item in shape_order:
+    if len(item) > 0:
+        add_list = movie_data_dict
+
+# create data frame and set index to name column
+movie_frame = pandas.DataFrame(movie_data_dict)
+movie_frame = movie_frame.set_index('Shape')
+
+
 # write data to file
 write_to_file = yes_no("Would you like the data writen to file? (y/n) ")
 if write_to_file == "yes":
@@ -318,7 +362,7 @@ if write_to_file == "yes":
 
     # write to file...
     # create file to hold data (add .txt extension)
-    file_name = "maths.txt"
+    file_name = "maths_2.txt"
     text_file = open(file_name, "w+")
 
     # heading
@@ -333,14 +377,14 @@ if write_to_file == "yes":
     #     text_file.write("\n\n")
 
     # shape
-    shape_write = "Shape: {} \n ".format(get_shape())
+    shape_write = "Shape: {} \n ".format(shape_order)
     text_file.write(shape_write)
 
     # close file
     text_file.close()
 
 else:
-    print()
+    print("no?")
 
 
 # *** Printing area ***
@@ -348,14 +392,11 @@ else:
 print()
 print("*** Maths!! ***")
 print()
+# print(movie_frame[['Shape']])
+
 # expense_print("Variable", variable_frame, variable_sub)
 
 
 print()
 print("*** Shape 1: $ ***")
 print()
-
-print()
-print("*** Pricing ***")
-print("Minimum Price: $")
-print("Recommended Price: $")
