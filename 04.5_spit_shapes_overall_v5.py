@@ -248,6 +248,10 @@ def get_shape():
     # holds snack order for a single user
     shape_info_list = []
 
+    info_dict = {
+        "Item": shape_info_list,
+    }
+
     desired_shape = ""
     while desired_shape != "xxx" or desired_shape != "no":
 
@@ -262,7 +266,7 @@ def get_shape():
 
         if desired_shape == "xxx" or desired_shape == "no":
             print()
-            return shape_info_list
+            # return shape_info_list
 
         if shape_choice == "Triangle" or shape_choice == "Parallelogram":
             tripar = shape_tripar(shape_choice)
@@ -282,11 +286,14 @@ def get_shape():
 
         shape_row.append(shape_choice)
 
+        expense_frame = pandas.DataFrame(info_dict)
+        expense_frame = expense_frame.set_index('Item')
+
         # check that snack is not the exit code before adding
         if shape_choice != "xxx" and shape_choice != "invalid choice" and shape_choice != "no":
             shape_info_list.append(shape_row)
 
-        return[shape_choice]
+        return [shape_choice, expense_frame]
 
 
 # prints expense frames
@@ -308,29 +315,20 @@ units_options = [
 
 # initialize lists (to make data-frames in due course)
 all_shapes = []
-all_tickets = []
+all_areas = []
+all_perimeters = []
 
-# snack lists...
-popcorn = []
-water = []
-pita_chips = []
-mms = []
-orange_juice = []
-
-snack_lists = [popcorn, water, pita_chips, mms, orange_juice]
-
-# store surcharge multiplier
-surcharge_multi_list = []
 
 # lists to store summary data...
 summary_headings = ["Shape"]
 summary_data = []
 
 # data frame dictionary
-movie_data_dict = {
+shape_data_dict = {
     'Shape': all_shapes,
+    'Area': all_areas,
+    'Perimeter': all_perimeters
 }
-
 
 unit = "invalid choice"
 while unit == "invalid choice":
@@ -342,23 +340,28 @@ while unit == "invalid choice":
 
 shape_order = get_shape()
 
-all_shapes.append(get_shape())
+
+# get variable costs
+variable_expenses = get_shape()
+variable_frame = variable_expenses[0]
+
+
+# all_shapes.append(get_shape())
 
 for item in shape_order:
     if len(item) > 0:
-        add_list = movie_data_dict
+        add_list = shape_data_dict
 
 # create data frame and set index to name column
-movie_frame = pandas.DataFrame(movie_data_dict)
-movie_frame = movie_frame.set_index('Shape')
+shape_frame = pandas.DataFrame(shape_data_dict)
+shape_frame = shape_frame.set_index('Shape')
 
 
 # write data to file
 write_to_file = yes_no("Would you like the data writen to file? (y/n) ")
 if write_to_file == "yes":
 
-    # variable_txt = pandas.DataFrame.to_string(variable_frame)
-    # fixed_txt = pandas.DataFrame.to_string()
+    shape_info_txt = pandas.DataFrame.to_string(variable_frame)
 
     # write to file...
     # create file to hold data (add .txt extension)
@@ -369,12 +372,12 @@ if write_to_file == "yes":
     text_file.write("*** Maths ***\n\n")
 
     # list holding stuff to print / write to file
-    # to_write = [variable_txt, fixed_txt]
+    to_write = [shape_info_txt]
 
     # heading
-    # for item in to_write:
-    #     text_file.write(str(item))
-    #     text_file.write("\n\n")
+    for item in to_write:
+        text_file.write(str(item))
+        text_file.write("\n\n")
 
     # shape
     shape_write = "Shape: {} \n ".format(shape_order)
@@ -392,11 +395,11 @@ else:
 print()
 print("*** Maths!! ***")
 print()
-# print(movie_frame[['Shape']])
+# print(shape_frame[['Shape']])
 
 # expense_print("Variable", variable_frame, variable_sub)
 
 
 print()
-print("*** Shape 1: $ ***")
+print("*** Shape 1:  ***")
 print()

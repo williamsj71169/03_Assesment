@@ -45,7 +45,7 @@
       <file leaf-file-name="04.5_spit_shapes_overall_v3.5.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04.5_spit_shapes_overall_v3.5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="-306">
               <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
               <folding>
                 <element signature="e#56#659#0" expanded="false" />
@@ -62,8 +62,8 @@
       <file leaf-file-name="04.5_spit_shapes_overall_v5.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/04.5_spit_shapes_overall_v5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="360" column="34" selection-start-line="360" selection-start-column="34" selection-end-line="360" selection-end-column="34" />
+            <state relative-caret-position="773">
+              <caret line="295" column="44" selection-start-line="295" selection-start-column="44" selection-end-line="295" selection-end-column="44" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
                 <element signature="e#70#673#0" expanded="false" />
@@ -71,8 +71,27 @@
                 <element signature="e#1419#2565#0" expanded="false" />
                 <element signature="e#2593#3216#0" expanded="false" />
                 <element signature="e#3250#6713#0" expanded="false" />
-                <element signature="e#6757#8461#0" expanded="false" />
-                <element signature="e#8534#8687#0" expanded="false" />
+                <element signature="e#8719#8872#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="00_FRC_v10.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../02_FRC/00_FRC_v10.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1624">
+              <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+              <folding>
+                <element signature="e#235#499#0" expanded="false" />
+                <element signature="e#580#922#0" expanded="false" />
+                <element signature="e#992#1200#0" expanded="false" />
+                <element signature="e#1252#1278#0" expanded="false" />
+                <element signature="e#2968#3121#0" expanded="false" />
+                <element signature="e#3207#5152#0" expanded="false" />
+                <element signature="e#5208#5259#0" expanded="false" />
+                <element signature="e#5319#5925#0" expanded="false" />
+                <element signature="e#6001#6403#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -81,8 +100,8 @@
       <file leaf-file-name="01_MMF_v11.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../01_MMF/Programing/01_MMF_v11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1229">
-              <caret line="332" column="22" selection-start-line="332" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
+            <state relative-caret-position="-549">
+              <caret line="222" column="7" selection-start-line="222" selection-start-column="7" selection-end-line="222" selection-end-column="7" />
               <folding>
                 <element signature="e#135#479#0" expanded="false" />
                 <element signature="e#545#975#0" expanded="false" />
@@ -102,27 +121,6 @@
             <state relative-caret-position="136">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="00_FRC_v10.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../02_FRC/00_FRC_v10.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="319" column="51" selection-start-line="319" selection-start-column="51" selection-end-line="319" selection-end-column="51" />
-              <folding>
-                <element signature="e#235#499#0" expanded="false" />
-                <element signature="e#580#922#0" expanded="false" />
-                <element signature="e#992#1200#0" expanded="false" />
-                <element signature="e#1252#1278#0" expanded="false" />
-                <element signature="e#1383#2892#0" expanded="false" />
-                <element signature="e#2968#3121#0" expanded="false" />
-                <element signature="e#3207#5152#0" expanded="false" />
-                <element signature="e#5208#5259#0" expanded="false" />
-                <element signature="e#5319#5925#0" expanded="false" />
-                <element signature="e#6001#6403#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -187,6 +185,7 @@
         <option value="$PROJECT_DIR$/04.5_spit_shapes_overall_v3.py" />
         <option value="$PROJECT_DIR$/04.5_spit_shapes_overall_v3.5.py" />
         <option value="$PROJECT_DIR$/04.5_spit_shapes_overall_v5.py" />
+        <option value="$PROJECT_DIR$/04.5_spit_shapes_overall_v5.5.py" />
       </list>
     </option>
   </component>
@@ -220,28 +219,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="03_Assesment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="03_Assesment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="03_Assesment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -503,15 +485,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="937" y="0" width="990" height="1047" extended-state="0" />
+    <frame x="937" y="0" width="990" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.017453799" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.017453799" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34044823" sideWeight="0.50410676" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34044823" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="961" y="31" width="958" height="1008" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5058698" sideWeight="0.4958932" order="2" side_tool="false" content_ui="tabs" x="961" y="31" width="958" height="1008" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -533,7 +515,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24653149" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="961" y="31" width="958" height="1008" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34044823" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="961" y="31" width="958" height="1008" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.017453799" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -815,11 +797,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/04.5_spit_shapes_overall_v5.py</url>
-          <line>360</line>
-          <option name="timeStamp" value="147" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/04.5_spit_shapes_overall_v5.py</url>
           <line>359</line>
           <option name="timeStamp" value="148" />
         </line-breakpoint>
@@ -848,24 +825,32 @@
           <line>232</line>
           <option name="timeStamp" value="156" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../02_FRC/00_FRC_v10.py</url>
+          <line>322</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../02_FRC/00_FRC_v10.py</url>
+          <line>333</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../02_FRC/00_FRC_v10.py</url>
+          <line>334</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../02_FRC/00_FRC_v10.py</url>
+          <line>335</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="157" />
+      <option name="time" value="163" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03_get_shapes_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-          <folding>
-            <element signature="e#56#659#0" expanded="false" />
-            <element signature="e#708#968#0" expanded="false" />
-            <element signature="e#998#1374#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../02_FRC/00_FRC_v10.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -875,7 +860,6 @@
             <element signature="e#580#922#0" expanded="false" />
             <element signature="e#992#1200#0" expanded="false" />
             <element signature="e#1252#1278#0" expanded="false" />
-            <element signature="e#1383#2892#0" expanded="false" />
             <element signature="e#2968#3121#0" expanded="false" />
             <element signature="e#3207#5152#0" expanded="false" />
             <element signature="e#5208#5259#0" expanded="false" />
@@ -947,7 +931,6 @@
             <element signature="e#580#922#0" expanded="false" />
             <element signature="e#992#1200#0" expanded="false" />
             <element signature="e#1252#1278#0" expanded="false" />
-            <element signature="e#1383#2892#0" expanded="false" />
             <element signature="e#2968#3121#0" expanded="false" />
             <element signature="e#3207#5152#0" expanded="false" />
             <element signature="e#5208#5259#0" expanded="false" />
@@ -1021,7 +1004,6 @@
             <element signature="e#580#922#0" expanded="false" />
             <element signature="e#992#1200#0" expanded="false" />
             <element signature="e#1252#1278#0" expanded="false" />
-            <element signature="e#1383#2892#0" expanded="false" />
             <element signature="e#2968#3121#0" expanded="false" />
             <element signature="e#3207#5152#0" expanded="false" />
             <element signature="e#5208#5259#0" expanded="false" />
@@ -1073,7 +1055,6 @@
             <element signature="e#580#922#0" expanded="false" />
             <element signature="e#992#1200#0" expanded="false" />
             <element signature="e#1252#1278#0" expanded="false" />
-            <element signature="e#1383#2892#0" expanded="false" />
             <element signature="e#2968#3121#0" expanded="false" />
             <element signature="e#3207#5152#0" expanded="false" />
             <element signature="e#5208#5259#0" expanded="false" />
@@ -1329,21 +1310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04.5_spit_shapes_overall_v3.5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
-          <folding>
-            <element signature="e#56#659#0" expanded="false" />
-            <element signature="e#708#969#0" expanded="false" />
-            <element signature="e#999#1372#0" expanded="false" />
-            <element signature="e#1405#2362#0" expanded="false" />
-            <element signature="e#2390#3049#0" expanded="false" />
-            <element signature="e#3083#6383#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_Assessment_v1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -1359,10 +1325,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/02_num_checker_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../01_MMF/Programing/01_MMF_v11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1229">
-          <caret line="332" column="22" selection-start-line="332" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
+        <state relative-caret-position="-549">
+          <caret line="222" column="7" selection-start-line="222" selection-start-column="7" selection-end-line="222" selection-end-column="7" />
           <folding>
             <element signature="e#135#479#0" expanded="false" />
             <element signature="e#545#975#0" expanded="false" />
@@ -1377,14 +1351,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../02_FRC/00_FRC_v10.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="319" column="51" selection-start-line="319" selection-start-column="51" selection-end-line="319" selection-end-column="51" />
+        <state relative-caret-position="-1624">
+          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
           <folding>
             <element signature="e#235#499#0" expanded="false" />
             <element signature="e#580#922#0" expanded="false" />
             <element signature="e#992#1200#0" expanded="false" />
             <element signature="e#1252#1278#0" expanded="false" />
-            <element signature="e#1383#2892#0" expanded="false" />
             <element signature="e#2968#3121#0" expanded="false" />
             <element signature="e#3207#5152#0" expanded="false" />
             <element signature="e#5208#5259#0" expanded="false" />
@@ -1394,18 +1367,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_num_checker_v2.py">
+    <entry file="file://$PROJECT_DIR$/04.5_spit_shapes_overall_v3.5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="-306">
+          <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
+          <folding>
+            <element signature="e#56#659#0" expanded="false" />
+            <element signature="e#708#969#0" expanded="false" />
+            <element signature="e#999#1372#0" expanded="false" />
+            <element signature="e#1405#2362#0" expanded="false" />
+            <element signature="e#2390#3049#0" expanded="false" />
+            <element signature="e#3083#6383#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04.5_spit_shapes_overall_v5.5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="288" column="51" selection-start-line="288" selection-start-column="51" selection-end-line="288" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04.5_spit_shapes_overall_v5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="360" column="34" selection-start-line="360" selection-start-column="34" selection-end-line="360" selection-end-column="34" />
+        <state relative-caret-position="773">
+          <caret line="295" column="44" selection-start-line="295" selection-start-column="44" selection-end-line="295" selection-end-column="44" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <element signature="e#70#673#0" expanded="false" />
@@ -1413,8 +1401,7 @@
             <element signature="e#1419#2565#0" expanded="false" />
             <element signature="e#2593#3216#0" expanded="false" />
             <element signature="e#3250#6713#0" expanded="false" />
-            <element signature="e#6757#8461#0" expanded="false" />
-            <element signature="e#8534#8687#0" expanded="false" />
+            <element signature="e#8719#8872#0" expanded="false" />
           </folding>
         </state>
       </provider>
