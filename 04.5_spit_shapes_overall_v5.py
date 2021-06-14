@@ -67,12 +67,6 @@ def yes_no(question):
 
 def shape_squrec(shape):
 
-    shape_list = []
-    area_list = []
-    perimeter_list = []
-
-    shape_list.append(shape)
-
     # ***** Reeeectannnn / squarring *****
 
     print("squarring")
@@ -98,13 +92,12 @@ def shape_squrec(shape):
     v1_perimeter = r_side_12 + r_side_12 + r_side_34 + r_side_34
     perimeter = round(v1_perimeter, round_to)
     print("perimeter is {} {}".format(perimeter, unit))
+    all_perimeters.append(perimeter)
 
     v1_area = r_side_12 * r_side_34
     area = round(v1_area, round_to)
     print("area is {} {} squared".format(area, unit))
-
-    area_list.append(area)
-    perimeter_list.append(perimeter)
+    all_areas.append(area)
 
     return()
 
@@ -125,10 +118,13 @@ def shape_circle():
     perimeter = 2 * 3.1415926 * c_radius
     c_perimeter = round(perimeter, round_to)
     print("perimeter is {} {}".format(c_perimeter, unit))
+    all_perimeters.append(c_perimeter)
 
     area = c_radius ** 2 * 3.1415926
     c_area = round(area, round_to)
     print("area is {} {} squared".format(c_area, unit))
+    all_areas.append(c_area)
+
     return()
 
 
@@ -147,7 +143,7 @@ def shape_tripar(shape2):
     ]
 
     desired_loop = ""
-    while desired_loop != "xxx" or desired_loop != "no":
+    while desired_loop != "Xxx" or desired_loop != "no":
 
         desired_enter = input("Do You have the base and height, or the sides?").lower()
 
@@ -177,6 +173,7 @@ def shape_tripar(shape2):
                 perimeter = t_side_1 + t_side_1 + t_side_2 + t_side_2
             pt_perimeter = round(perimeter, round_to)
             print("perimeter is {} {}".format(pt_perimeter, unit))
+            all_perimeters.append(pt_perimeter)
 
             if shape2 == "Triangle":
                 semi_perimeter = perimeter / 2
@@ -196,6 +193,8 @@ def shape_tripar(shape2):
             else:
                 area = "n/a"
             print("area is {} {} squared".format(area, unit))
+            all_areas.append(area)
+
             break
 
         elif enter_choice == "Base And Height":
@@ -215,6 +214,7 @@ def shape_tripar(shape2):
                 pt_perimeter = perimeter_1 * 2
                 perimeter = round(pt_perimeter, round_to)
             print("perimeter is {} {}".format(perimeter, unit))
+            all_perimeters.append(perimeter)
 
             if shape2 == "Triangle":
                 area = base / 2 * height
@@ -222,6 +222,7 @@ def shape_tripar(shape2):
                 area = base * height
             pt_area = round(area, round_to)
             print("area is {} {} squared".format(pt_area, unit))
+            all_areas.append(pt_area)
 
         else:
             print("Sorry, That is not a valid input.")
@@ -242,18 +243,19 @@ def get_shape():
         ["square", "s", "squ"],
         ["rectangle", "rect", "r"],
         ["circle", "circ", "c"],
-        ["parallelogram", "paro", "p"]
+        ["parallelogram", "paro", "p"],
+        ["Xxx"]
     ]
 
     # holds snack order for a single user
     shape_info_list = []
 
     info_dict = {
-        "Item": shape_info_list,
+        "Info": shape_info_list,
     }
 
     desired_shape = ""
-    while desired_shape != "xxx" or desired_shape != "no":
+    while desired_shape != "Xxx" or desired_shape != "no":
 
         shape_row = []
 
@@ -263,10 +265,12 @@ def get_shape():
         # check that string is valid
         shape_choice = string_check(desired_shape, valid_shapes)
         print("Shape Choice: ", shape_choice)
+        
+        all_shapes.append(shape_choice)
 
-        if desired_shape == "xxx" or desired_shape == "no":
+        if desired_shape == "Xxx" or desired_shape == "no":
             print()
-            # return shape_info_list
+            return()
 
         if shape_choice == "Triangle" or shape_choice == "Parallelogram":
             tripar = shape_tripar(shape_choice)
@@ -280,20 +284,19 @@ def get_shape():
         else:
             print("Sorry, That is not a valid shape.")
 
-        # check snack amount it valid (less than 5)
-
         # add snack and amount to list...
-
+        '''
         shape_row.append(shape_choice)
 
         expense_frame = pandas.DataFrame(info_dict)
         expense_frame = expense_frame.set_index('Item')
 
         # check that snack is not the exit code before adding
-        if shape_choice != "xxx" and shape_choice != "invalid choice" and shape_choice != "no":
+        if shape_choice != "Xxx" and shape_choice != "invalid choice" and shape_choice != "no":
             shape_info_list.append(shape_row)
 
         return [shape_choice, expense_frame]
+        '''
 
 
 # prints expense frames
@@ -342,8 +345,11 @@ shape_order = get_shape()
 
 
 # get variable costs
-variable_expenses = get_shape()
-variable_frame = variable_expenses[0]
+# variable_expenses = get_shape()
+# variable_frame = variable_expenses[0]
+
+# print("variable expenses", variable_expenses)
+# print("variable frame", variable_frame)
 
 
 # all_shapes.append(get_shape())
@@ -352,32 +358,38 @@ for item in shape_order:
     if len(item) > 0:
         add_list = shape_data_dict
 
+print("shapes", all_shapes)
+print("perimeter", all_perimeters)
+print("area", all_areas)
+
 # create data frame and set index to name column
 shape_frame = pandas.DataFrame(shape_data_dict)
 shape_frame = shape_frame.set_index('Shape')
+print(shape_frame)
 
 
 # write data to file
 write_to_file = yes_no("Would you like the data writen to file? (y/n) ")
 if write_to_file == "yes":
 
-    shape_info_txt = pandas.DataFrame.to_string(variable_frame)
+    # shape_info_txt = pandas.DataFrame.to_string(variable_frame)
 
     # write to file...
     # create file to hold data (add .txt extension)
-    file_name = "maths_2.txt"
+    file_name_choice = input("What would you lke your file named?")
+    file_name = "{}.txt".format(file_name_choice)
     text_file = open(file_name, "w+")
 
     # heading
     text_file.write("*** Maths ***\n\n")
 
     # list holding stuff to print / write to file
-    to_write = [shape_info_txt]
+    # to_write = [shape_info_txt]
 
     # heading
-    for item in to_write:
-        text_file.write(str(item))
-        text_file.write("\n\n")
+
+    for item in shape_order:
+        add_list = shape_data_dict
 
     # shape
     shape_write = "Shape: {} \n ".format(shape_order)
