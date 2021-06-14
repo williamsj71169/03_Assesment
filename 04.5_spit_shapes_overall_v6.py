@@ -143,7 +143,7 @@ def shape_tripar(shape2):
     ]
 
     desired_loop = ""
-    while desired_loop != "Xxx" or desired_loop != "no":
+    while desired_loop != "xxx" or desired_loop != "no":
 
         desired_enter = input("Do You have the base and height, or the sides?").lower()
 
@@ -243,21 +243,11 @@ def get_shape():
         ["square", "s", "squ"],
         ["rectangle", "rect", "r"],
         ["circle", "circ", "c"],
-        ["parallelogram", "paro", "p"],
-        ["Xxx"]
+        ["parallelogram", "paro", "p"]
     ]
 
-    # holds snack order for a single user
-    shape_info_list = []
-
-    info_dict = {
-        "Info": shape_info_list,
-    }
-
     desired_shape = ""
-    while desired_shape != "Xxx" or desired_shape != "no":
-
-        shape_row = []
+    while desired_shape != "xxx" or desired_shape != "no":
 
         # ask user for desired snack and put in lowercase
         desired_shape = input("Shape: ").lower()
@@ -266,11 +256,12 @@ def get_shape():
         shape_choice = string_check(desired_shape, valid_shapes)
         print("Shape Choice: ", shape_choice)
 
-        all_shapes.append(shape_choice)
-
-        if desired_shape == "Xxx" or desired_shape == "no":
+        if desired_shape == "xxx" or desired_shape == "no":
             print()
             return()
+
+        else:
+            all_shapes.append(shape_choice)
 
         if shape_choice == "Triangle" or shape_choice == "Parallelogram":
             tripar = shape_tripar(shape_choice)
@@ -285,18 +276,7 @@ def get_shape():
             print("Sorry, That is not a valid shape.")
 
         # add snack and amount to list...
-        '''
-        shape_row.append(shape_choice)
-
-        expense_frame = pandas.DataFrame(info_dict)
-        expense_frame = expense_frame.set_index('Item')
-
-        # check that snack is not the exit code before adding
-        if shape_choice != "Xxx" and shape_choice != "invalid choice" and shape_choice != "no":
-            shape_info_list.append(shape_row)
-
-        return [shape_choice, expense_frame]
-        '''
+        # return()
 
 
 # prints expense frames
@@ -344,35 +324,18 @@ while unit == "invalid choice":
 shape_order = get_shape()
 
 
-# get variable costs
-# variable_expenses = get_shape()
-# variable_frame = variable_expenses[0]
-
-# print("variable expenses", variable_expenses)
-# print("variable frame", variable_frame)
-
-
-# all_shapes.append(get_shape())
-
 for item in shape_order:
     if len(item) > 0:
         add_list = shape_data_dict
 
-print("shapes", all_shapes)
-print("perimeter", all_perimeters)
-print("area", all_areas)
-
 # create data frame and set index to name column
 shape_frame = pandas.DataFrame(shape_data_dict)
 shape_frame = shape_frame.set_index('Shape')
-print(shape_frame)
 
 
 # write data to file
 write_to_file = yes_no("Would you like the data writen to file? (y/n) ")
 if write_to_file == "yes":
-
-    # shape_info_txt = pandas.DataFrame.to_string(variable_frame)
 
     # write to file...
     # create file to hold data (add .txt extension)
@@ -382,11 +345,6 @@ if write_to_file == "yes":
 
     # heading
     text_file.write("*** Maths ***\n\n")
-
-    # list holding stuff to print / write to file
-    # to_write = [shape_info_txt]
-
-    # heading
 
     for item in shape_order:
         add_list = shape_data_dict
@@ -398,19 +356,22 @@ if write_to_file == "yes":
     # close file
     text_file.close()
 
-else:
-    print("no?")
-
 
 # *** Printing area ***
 
 print()
 print("*** Maths!! ***")
 print()
-# print(shape_frame[['Shape']])
 
-# expense_print("Variable", variable_frame, variable_sub)
+print()
+print(shape_frame)
+print()
 
+print()
+print("shapes", all_shapes)
+print("perimeter", all_perimeters)
+print("area", all_areas)
+print()
 
 print()
 print("*** Shape 1:  ***")
