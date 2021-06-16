@@ -260,7 +260,7 @@ def get_shape():
             print()
             return()
 
-        else:
+        if shape_choice != "invalid choice":
             all_shapes.append(shape_choice)
 
         if shape_choice == "Triangle" or shape_choice == "Parallelogram":
@@ -277,17 +277,6 @@ def get_shape():
 
         # add snack and amount to list...
         # return()
-
-
-# prints expense frames
-def expense_print(heading, frame, subtotal):
-    print()
-    print("*** {} Costs ***".format(heading))
-    print(frame)
-    print()
-    print("{} Costs: ${:.2f}".format(heading, subtotal))
-    return ""
-
 
 # valid options for payment method
 units_options = [
@@ -324,10 +313,6 @@ while unit == "invalid choice":
 shape_order = get_shape()
 
 
-for item in shape_order:
-    if len(item) > 0:
-        add_list = shape_data_dict
-
 # create data frame and set index to name column
 shape_frame = pandas.DataFrame(shape_data_dict)
 shape_frame = shape_frame.set_index('Shape')
@@ -344,14 +329,15 @@ if write_to_file == "yes":
     text_file = open(file_name, "w+")
 
     # heading
-    text_file.write("*** Maths ***\n\n")
+    text_file.write("*** {} ***\n\n".format(file_name_choice))
 
-    for item in shape_order:
+    # shape_frame = pandas.DataFrame(shape_data_dict)
+    # shape_frame = shape_frame.set_index('Shape')
+
+    # text_file.write(shape_frame)
+
+    for item in shape_frame:
         add_list = shape_data_dict
-
-    # shape
-    shape_write = "Shape: {} \n ".format(shape_order)
-    text_file.write(shape_write)
 
     # close file
     text_file.close()
@@ -365,14 +351,4 @@ print()
 
 print()
 print(shape_frame)
-print()
-
-print()
-print("shapes", all_shapes)
-print("perimeter", all_perimeters)
-print("area", all_areas)
-print()
-
-print()
-print("*** Shape 1:  ***")
 print()
