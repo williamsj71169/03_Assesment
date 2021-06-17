@@ -1,0 +1,6 @@
+*** maths12 ***
+
+               Area  Perimeter Unit
+Shape                              
+Rectangle     30.00     22.000    m
+Circle     14506.65    426.961   cm

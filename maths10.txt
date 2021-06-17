@@ -1,0 +1,6 @@
+*** maths10 ***
+
+              Area  Perimeter
+Shape                        
+Rectangle   4256.0      264.0
+Circle     14102.6      421.0

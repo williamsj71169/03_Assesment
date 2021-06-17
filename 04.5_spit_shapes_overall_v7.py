@@ -72,7 +72,16 @@ def shape_squrec(shape):
     print("squarring")
     print("Reeeectannnn")
 
-    round_to = num_check("Round to nearest...? ", "Can't be zero", int)
+    unit = "invalid choice"
+    while unit == "invalid choice":
+        unit = input("Please choose your units (mm / cm / m)?").lower()
+        unit = string_check(unit, units_options).lower()
+        if unit == "invalid choice":
+            print("This is not a valid unit.")
+
+    all_units.append(unit)
+
+    round_to = num_check("Round to how many dp??", "Can't be zero", int)
 
     side_12 = num_check("How long is it? ", "Please enter an number more than 0\n", float)
     if shape == "Rectangle":
@@ -108,7 +117,16 @@ def shape_circle():
 
     print("cirrical")
 
-    round_to = num_check("Round to nearest...? ", "Can't be zero", int)
+    unit = "invalid choice"
+    while unit == "invalid choice":
+        unit = input("Please choose your units (mm / cm / m)?").lower()
+        unit = string_check(unit, units_options).lower()
+        if unit == "invalid choice":
+            print("This is not a valid unit.")
+
+    all_units.append(unit)
+
+    round_to = num_check("Round to how many dp??(>1)", "Can't be zero", int)
 
     c_radius = num_check("What is the radius (half of diameter)? ", "Please enter an number more than 0\n", float)
 
@@ -132,10 +150,19 @@ def shape_tripar(shape2):
 
     # ***** Triiiang ****
 
-    round_to = num_check("Round to nearest...? ", "Can't be zero", int)
-
     print("Triiiang")
     print("parrrooolll")
+
+    unit = "invalid choice"
+    while unit == "invalid choice":
+        unit = input("Please choose your units (mm / cm / m)?").lower()
+        unit = string_check(unit, units_options).lower()
+        if unit == "invalid choice":
+            print("This is not a valid unit.")
+
+    all_units.append(unit)
+
+    round_to = num_check("Round to how many dp??", "Can't be zero", int)
 
     bh_or_sides = [
         ["base and height", "b&h", "b & h", "bh", "b"],
@@ -289,18 +316,11 @@ units_options = [
 all_shapes = []
 all_areas = []
 all_perimeters = []
-
+all_units = []
 
 # lists to store summary data...
 summary_headings = ["Shape"]
 summary_data = []
-
-unit = "invalid choice"
-while unit == "invalid choice":
-    unit = input("Please choose your units (mm / cm / m)?").lower()
-    unit = string_check(unit, units_options).lower()
-    if unit == "invalid choice":
-        print("This is not a valid unit.")
 
 
 # data frame dictionary
@@ -308,7 +328,7 @@ shape_data_dict = {
     'Shape': all_shapes,
     'Area': all_areas,
     'Perimeter': all_perimeters,
-    'Unit': unit
+    'Unit': all_units
 }
 
 shape_order = get_shape()

@@ -72,7 +72,16 @@ def shape_squrec(shape):
     print("squarring")
     print("Reeeectannnn")
 
-    round_to = num_check("Round to nearest...? ", "Can't be zero", int)
+    unit = "invalid choice"
+    while unit == "invalid choice":
+        unit = input("Please choose your units (mm / cm / m)?").lower()
+        unit = string_check(unit, units_options).lower()
+        if unit == "invalid choice":
+            print("This is not a valid unit.")
+
+    all_units.append(unit)
+
+    round_to = num_check("Round to how many dp??", "Can't be zero", int)
 
     side_12 = num_check("How long is it? ", "Please enter an number more than 0\n", float)
     if shape == "Rectangle":
@@ -108,7 +117,16 @@ def shape_circle():
 
     print("cirrical")
 
-    round_to = num_check("Round to nearest...? ", "Can't be zero", int)
+    unit = "invalid choice"
+    while unit == "invalid choice":
+        unit = input("Please choose your units (mm / cm / m)?").lower()
+        unit = string_check(unit, units_options).lower()
+        if unit == "invalid choice":
+            print("This is not a valid unit.")
+
+    all_units.append(unit)
+
+    round_to = num_check("Round to how many dp??(>1)", "Can't be zero", int)
 
     c_radius = num_check("What is the radius (half of diameter)? ", "Please enter an number more than 0\n", float)
 
@@ -132,10 +150,19 @@ def shape_tripar(shape2):
 
     # ***** Triiiang ****
 
-    round_to = num_check("Round to nearest...? ", "Can't be zero", int)
-
     print("Triiiang")
     print("parrrooolll")
+
+    unit = "invalid choice"
+    while unit == "invalid choice":
+        unit = input("Please choose your units (mm / cm / m)?").lower()
+        unit = string_check(unit, units_options).lower()
+        if unit == "invalid choice":
+            print("This is not a valid unit.")
+
+    all_units.append(unit)
+
+    round_to = num_check("Round to how many dp??", "Can't be zero", int)
 
     bh_or_sides = [
         ["base and height", "b&h", "b & h", "bh", "b"],
@@ -278,6 +305,22 @@ def get_shape():
         # add snack and amount to list...
         # return()
 
+
+# function to show instructions if necessary
+def instructions(options):
+    show_help = "invalid choice"
+    while show_help == "invalid choice":
+        show_help = yes_no("*** Would you like to read the instructions? (y/n) *** ")
+        show_help = string_check(show_help, options)
+
+    if show_help == "Yes":
+        print()
+        print("*** Instructions ***")
+        print()
+        print("* Answer all the questions asked, in the way you will be asked to answer them. *")
+
+    return ""
+
 # valid options for payment method
 units_options = [
     ["mm"],
@@ -285,22 +328,21 @@ units_options = [
     ["m"]
 ]
 
+# valid options for yes/no questions
+y_n = [
+    ["yes", "y"],
+    ["no", "n"]
+]
+
 # initialize lists (to make data-frames in due course)
 all_shapes = []
 all_areas = []
 all_perimeters = []
-
+all_units = []
 
 # lists to store summary data...
 summary_headings = ["Shape"]
 summary_data = []
-
-unit = "invalid choice"
-while unit == "invalid choice":
-    unit = input("Please choose your units (mm / cm / m)?").lower()
-    unit = string_check(unit, units_options).lower()
-    if unit == "invalid choice":
-        print("This is not a valid unit.")
 
 
 # data frame dictionary
@@ -308,8 +350,12 @@ shape_data_dict = {
     'Shape': all_shapes,
     'Area': all_areas,
     'Perimeter': all_perimeters,
-    'Unit': unit
+    'Unit': all_units
 }
+
+
+instructions(y_n)
+
 
 shape_order = get_shape()
 
@@ -328,6 +374,7 @@ if write_to_file == "yes":
     file_name_choice = input("What would you lke your file named?")
     file_name = "{}.txt".format(file_name_choice)
     text_file = open(file_name, "w+")
+    print("Your File was called: {}.txt ".format(file_name_choice))
 
     # heading
     text_file.write("*** {} ***\n\n".format(file_name_choice))
