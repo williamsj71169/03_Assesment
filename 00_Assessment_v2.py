@@ -67,10 +67,7 @@ def yes_no(question):
 
 def shape_squrec(shape):
 
-    # ***** Reeeectannnn / squarring *****
-
-    print("squarring")
-    print("Reeeectannnn")
+    # Square and Rectangle:
 
     unit = "invalid choice"
     while unit == "invalid choice":
@@ -113,9 +110,7 @@ def shape_squrec(shape):
 
 def shape_circle():
 
-    # ***** cirrical *****
-
-    print("cirrical")
+    # Circle:
 
     unit = "invalid choice"
     while unit == "invalid choice":
@@ -123,8 +118,8 @@ def shape_circle():
         unit = string_check(unit, units_options).lower()
         if unit == "invalid choice":
             print("This is not a valid unit.")
-
-    all_units.append(unit)
+        else:
+            all_units.append(unit)
 
     round_to = num_check("Round to how many dp??(>1)", "Can't be zero", int)
 
@@ -148,10 +143,7 @@ def shape_circle():
 
 def shape_tripar(shape2):
 
-    # ***** Triiiang ****
-
-    print("Triiiang")
-    print("parrrooolll")
+    # Triangle and Parallelogram:
 
     unit = "invalid choice"
     while unit == "invalid choice":
@@ -165,14 +157,14 @@ def shape_tripar(shape2):
     round_to = num_check("Round to how many dp??", "Can't be zero", int)
 
     bh_or_sides = [
-        ["base and height", "b&h", "b & h", "bh", "b"],
+        ["base and height", "b&h", "b & h", "bh", "b", "base", "height", "h"],
         ["sides", "s", "side"]
     ]
 
     desired_loop = ""
     while desired_loop != "xxx" or desired_loop != "no":
 
-        desired_enter = input("Do You have the base and height, or the sides?").lower()
+        desired_enter = input("Do You have the base and height (bh), or the sides (s)?").lower()
 
         enter_choice = string_check(desired_enter, bh_or_sides)
         print("Your Choice: ", enter_choice)
@@ -277,11 +269,12 @@ def get_shape():
     while desired_shape != "xxx" or desired_shape != "no":
 
         # ask user for desired snack and put in lowercase
-        desired_shape = input("Shape: ").lower()
+        print()
+        print("Shape Options: circle, square, rectangle, triangle or parallelogram")
+        desired_shape = input("Your Shape: ").lower()
 
         # check that string is valid
         shape_choice = string_check(desired_shape, valid_shapes)
-        print("Shape Choice: ", shape_choice)
 
         if desired_shape == "xxx" or desired_shape == "no":
             print()
@@ -317,7 +310,9 @@ def instructions(options):
         print()
         print("*** Instructions ***")
         print()
-        print("* Answer all the questions asked, in the way you will be asked to answer them. *")
+        print("* Choose your shape and add in its sides lengths, or its base and height"
+              "(for parallelogram and triangle only), and you will receive the area and perimeter in the units that"
+              "you provided. *")
 
     return ""
 
