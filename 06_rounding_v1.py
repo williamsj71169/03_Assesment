@@ -43,21 +43,6 @@ def num_check(question, error, num_type):
             print(error)
 
 
-def calc_print(heading, letter, number, unit, equation, step_1, ur_answer, r_answer, rounded):
-    print()
-    print("* {} ({} = {}{}): *".format(heading, letter, number, unit))
-    print()
-    print("{}".format(equation))
-    print("= {}".format(step_1))
-    print("= {} (unrounded)".format(ur_answer))
-    print("= {} ({} dp)".format(r_answer, rounded))
-    print()
-    print("* {} = {} {} *".format(heading, r_answer, unit))
-    print()
-
-    return ""
-
-
 def shape_circle():
 
     # Circle:
@@ -85,26 +70,26 @@ def shape_circle():
 
     circumference = 2 * 3.1415926 * c_radius
 
+    print("Circumference: 2 * 3.1415926 * {} = {}".format(c_radius, circumference))
+
     if round_outputs == 0:
         c_circumference = ("{:.0f}".format(circumference))
     else:
         c_circumference = round(circumference, round_outputs)
 
-    calc_print("Circle Circumference", "r", c_radius, unit, "2 x pi x r",
-               "2 x pi x {}".format(c_radius), circumference, c_circumference, round_outputs)
-
+    print("Circumference is {} {} ".format(c_circumference, unit))
     all_perimeters.append(c_circumference)
 
     area = c_radius ** 2 * 3.1415926
+
+    print("Area: {} ** 2 * 3.1415926 = {}".format(c_radius, area))
 
     if round_outputs == 0:
         c_area = ("{:.0f}".format(area))
     else:
         c_area = round(area, round_outputs)
 
-    calc_print("Circle Area", "r", c_radius, unit, "(r x r) x pi",
-               "({} x {}) x pi".format(c_radius, c_radius), area, c_area, round_outputs)
-
+    print("Area is {} {} squared".format(c_area, unit))
     all_areas.append(c_area)
 
     return()
