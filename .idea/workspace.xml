@@ -23,11 +23,30 @@
       <file leaf-file-name="06_rounding_v2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06_rounding_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-349">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="318">
+              <caret line="85" column="61" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="61" />
               <folding>
-                <element signature="e#43#646#0" expanded="false" />
-                <element signature="e#695#957#0" expanded="false" />
+                <element signature="e#1059#1414#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="00_Assessment_v3.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00_Assessment_v3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#70#673#0" expanded="false" />
+                <element signature="e#722#984#0" expanded="false" />
+                <element signature="e#1014#1387#0" expanded="false" />
+                <element signature="e#1489#1844#0" expanded="false" />
+                <element signature="e#3290#4656#0" expanded="false" />
+                <element signature="e#4690#8619#0" expanded="false" />
+                <element signature="e#8663#10102#0" expanded="false" />
+                <element signature="e#10178#10738#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -85,28 +104,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="00_Assessment_v2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Assessment_v2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-              <folding>
-                <element signature="e#70#673#0" expanded="false" />
-                <element signature="e#722#983#0" expanded="false" />
-                <element signature="e#1013#1386#0" expanded="false" />
-                <element signature="e#1419#2712#0" expanded="false" />
-                <element signature="e#3762#7691#0" expanded="false" />
-                <element signature="e#7735#9174#0" expanded="false" />
-                <element signature="e#9250#9810#0" expanded="false" />
-                <element signature="e#9863#9900#0" expanded="false" />
-                <element signature="e#9945#9982#0" expanded="false" />
-                <element signature="e#10230#10336#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="08_instructions.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="08_instructions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/08_instructions.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -217,6 +215,7 @@
         <option value="$PROJECT_DIR$/08_instructions.py" />
         <option value="$PROJECT_DIR$/00_sandpit.py" />
         <option value="$PROJECT_DIR$/06_rounding_v2.py" />
+        <option value="$PROJECT_DIR$/00_Assessment_v3.py" />
       </list>
     </option>
   </component>
@@ -518,7 +517,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34044823" sideWeight="0.50410676" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46851653" sideWeight="0.4958932" order="2" side_tool="false" content_ui="tabs" x="961" y="31" width="958" height="1008" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.4958932" order="2" side_tool="false" content_ui="tabs" x="961" y="31" width="958" height="1008" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -850,19 +849,22 @@
           <line>128</line>
           <option name="timeStamp" value="183" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_Assessment_v3.py</url>
+          <line>112</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_Assessment_v3.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="191" />
+      <option name="time" value="194" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_Assessment_v1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_num_checker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1314,17 +1316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06_rounding_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-349">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="e#43#646#0" expanded="false" />
-            <element signature="e#695#957#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04.5_spit_shapes_overall_v6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -1336,6 +1327,18 @@
             <element signature="e#1419#2470#0" expanded="false" />
             <element signature="e#2498#3190#0" expanded="false" />
             <element signature="e#3224#6854#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_instructions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
+          <folding>
+            <element signature="e#27#400#0" expanded="false" />
+            <element signature="e#445#1048#0" expanded="false" />
+            <element signature="e#1690#1727#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1359,14 +1362,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08_instructions.py">
+    <entry file="file://$PROJECT_DIR$/06_rounding_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
+        <state relative-caret-position="318">
+          <caret line="85" column="61" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="61" />
           <folding>
-            <element signature="e#27#400#0" expanded="false" />
-            <element signature="e#445#1048#0" expanded="false" />
-            <element signature="e#1690#1727#0" expanded="false" />
+            <element signature="e#1059#1414#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Assessment_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#70#673#0" expanded="false" />
+            <element signature="e#722#984#0" expanded="false" />
+            <element signature="e#1014#1387#0" expanded="false" />
+            <element signature="e#1489#1844#0" expanded="false" />
+            <element signature="e#3290#4656#0" expanded="false" />
+            <element signature="e#4690#8619#0" expanded="false" />
+            <element signature="e#8663#10102#0" expanded="false" />
+            <element signature="e#10178#10738#0" expanded="false" />
           </folding>
         </state>
       </provider>
