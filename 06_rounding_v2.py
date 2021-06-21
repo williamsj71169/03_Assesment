@@ -76,12 +76,7 @@ def shape_circle():
 
     c_radius = num_check("What is the radius (half of diameter)? ", "Please enter an number more than 0\n", float)
 
-    if round_outputs == 0:
-        c_radius_2 = ("{:.0f}".format(c_radius))
-    else:
-        c_radius_2 = round(c_radius, round_outputs)
-
-    print("the radius is {} {}".format(c_radius_2, unit))
+    print("the radius is {} {}".format(c_radius, unit))
 
     circumference = 2 * 3.1415926 * c_radius
 
