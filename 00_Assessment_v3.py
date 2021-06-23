@@ -65,9 +65,20 @@ def yes_no(question):
         print("Please enter either yes or no...\n")
 
 
-def calc_print(heading, letter, number, unit, equation, step_1, ur_answer, r_answer, rounded):
+def calc_print(heading, letter, number, unit, equation, step_1, ur_answer, r_answer, rounded, letter2, number2,
+               letter3, number3, choice):
     print()
-    print("* {} ({} = {}{}): *".format(heading, letter, number, unit))
+    if heading == "Rectangle Perimeter" or heading == "Rectangle Area" or heading == "Parallelogram Perimeter"\
+            or heading == "Parallelogram Area":
+        others = ", ({} = {}{})".format(letter2, number2, unit)
+    elif heading == "Triangle Area" or heading == "Triangle Perimeter":
+        if choice == "bh":
+            others = ", ({} = {}{})".format(letter2, number2, unit)
+        else:
+            others = ", ({} = {}{}), ({} = {}{})".format(letter2, number2, unit, letter3, number3, unit)
+    else:
+        others = ""
+    print("* {} ({} = {}{}){}: *".format(heading, letter, number, unit, others))
     print()
     print("{}".format(equation))
     print("= {}".format(step_1))
@@ -112,11 +123,21 @@ def shape_squrec(shape):
 
     v1_perimeter = r_side_12 + r_side_12 + r_side_34 + r_side_34
 
-
     if round_to == 0:
         perimeter = ("{:.0f}".format(v1_perimeter))
     else:
         perimeter = round(v1_perimeter, round_to)
+
+    if shape == "Rectangle":
+        equation = "s1 + s1 + s2 + s2"
+        step_1 = "{} + {} + {} + {}".format(r_side_12, r_side_12, r_side_34, r_side_34)
+    else:
+        equation = "s x 4"
+        step_1 = "{} x 4".format(r_side_12)
+
+    calc_print("{} Perimeter".format(shape), "s1", r_side_12, unit, equation, step_1, v1_perimeter, perimeter, round_to,
+               "s2", r_side_34, "", "", "")
+
     all_perimeters.append(perimeter)
 
     v1_area = r_side_12 * r_side_34
@@ -125,6 +146,17 @@ def shape_squrec(shape):
         area = ("{:.0f}".format(v1_area))
     else:
         area = round(v1_area, round_to)
+
+    if shape == "Rectangle":
+        num = "s2"
+        extra = "1"
+    else:
+        num = "s"
+        extra = ""
+
+    calc_print("{} Area".format(shape), "s", r_side_12, unit, "s{} x {}".format(extra, num),
+               "{} x {}".format(r_side_12, r_side_34), v1_area, area, round_to, "s2", r_side_34, "", "", "")
+
     all_areas.append(area)
 
     return()
@@ -157,7 +189,7 @@ def shape_circle():
         c_circumference = round(circumference, round_to)
 
     calc_print("Circle Circumference", "r", c_radius, unit, "2 x pi x r",
-               "2 x pi x {}".format(c_radius), circumference, c_circumference, round_to)
+               "2 x pi x {}".format(c_radius), circumference, c_circumference, round_to, "", "", "", "", "")
 
     all_perimeters.append(c_circumference)
 
@@ -169,7 +201,7 @@ def shape_circle():
         c_area = round(area, round_to)
 
     calc_print("Circle Area", "r", c_radius, unit, "(r x r) x pi",
-               "({} x {}) x pi".format(c_radius, c_radius), area, c_area, round_to)
+               "({} x {}) x pi".format(c_radius, c_radius), area, c_area, round_to, "", "", "", "", "")
 
     all_areas.append(c_area)
 
@@ -213,13 +245,10 @@ def shape_tripar(shape2):
             else:
                 t_side_3 = 0
 
-            t_side_12 = round(t_side_1, round_to)
-            t_side_22 = round(t_side_2, round_to)
-            print("side 1 is {} {}".format(t_side_12, unit))
-            print("side 2 is {} {}".format(t_side_22, unit))
+            print("side 1 is {} {}".format(t_side_1, unit))
+            print("side 2 is {} {}".format(t_side_2, unit))
             if shape2 == "Triangle":
-                t_side_32 = round(t_side_3, round_to)
-                print("side 3 is {} {}".format(t_side_32, unit))
+                print("side 3 is {} {}".format(t_side_3, unit))
 
             if shape2 == "Triangle":
                 perimeter = t_side_1 + t_side_2 + t_side_3
@@ -256,26 +285,41 @@ def shape_tripar(shape2):
             base = num_check("What is the base?", "Please enter an number more than 0\n", float)
             height = num_check("What is the height?", "Please enter an number more than 0\n", float)
 
-            base_2 = round(base, round_to)
-            height_2 = round(height, round_to)
-            print("the base is {} {} squared".format(base_2, unit))
-            print("the height is {} {} squared".format(height_2, unit))
+            print("the base is {} {}".format(base, unit))
+            print("the height is {} {}".format(height, unit))
 
             if shape2 == "Triangle":
                 perimeter = "n/a"
             else:
                 perimeter_1 = base + height
                 pt_perimeter = perimeter_1 * 2
-                perimeter = round(pt_perimeter, round_to)
-            print("perimeter is {} {}".format(perimeter, unit))
+                if round_to == 0:
+                    perimeter = ("{:.0f}".format(pt_perimeter))
+                else:
+                    perimeter = round(pt_perimeter, round_to)
+
+                calc_print("Parallelogram Perimeter", "b", base, unit, "2(b + h)", "2({} + {})".format(base, height),
+                           pt_perimeter, perimeter, round_to, "h", height, "", "", "bh")
+
             all_perimeters.append(perimeter)
 
             if shape2 == "Triangle":
                 area = base / 2 * height
+                equation = "b x h / 2"
+                step1 = "{} x {} / 2".format(base, height)
             else:
                 area = base * height
-            pt_area = round(area, round_to)
-            print("area is {} {} squared".format(pt_area, unit))
+                equation = "b x h"
+                step1 = "{} x {}".format(base, height)
+
+            if round_to == 0:
+                pt_area = ("{:.0f}".format(area))
+            else:
+                pt_area = round(area, round_to)
+
+            calc_print("{} Area".format(shape2), "b", base, unit, equation, step1, area, pt_area, round_to, "h", height,
+                       "", "", "bh")
+
             all_areas.append(pt_area)
 
         else:
