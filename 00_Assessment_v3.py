@@ -66,7 +66,7 @@ def yes_no(question):
 
 
 def calc_print(heading, letter, number, unit, equation, step_1, ur_answer, r_answer, rounded, letter2, number2,
-               letter3, number3, choice):
+               letter3, number3, choice, t_s_p):
     print()
     if heading == "Rectangle Perimeter" or heading == "Rectangle Area" or heading == "Parallelogram Perimeter"\
             or heading == "Parallelogram Area":
@@ -80,6 +80,10 @@ def calc_print(heading, letter, number, unit, equation, step_1, ur_answer, r_ans
         others = ""
     print("* {} ({} = {}{}){}: *".format(heading, letter, number, unit, others))
     print()
+    if heading == "Triangle Area" and choice == "":
+        print("p = perimeter / 2")
+        print("p = {}".format(t_s_p))
+        print()
     print("{}".format(equation))
     print("= {}".format(step_1))
     print("= {} (unrounded)".format(ur_answer))
@@ -136,7 +140,7 @@ def shape_squrec(shape):
         step_1 = "{} x 4".format(r_side_12)
 
     calc_print("{} Perimeter".format(shape), "s1", r_side_12, unit, equation, step_1, v1_perimeter, perimeter, round_to,
-               "s2", r_side_34, "", "", "")
+               "s2", r_side_34, "", "", "", "")
 
     all_perimeters.append(perimeter)
 
@@ -155,7 +159,7 @@ def shape_squrec(shape):
         extra = ""
 
     calc_print("{} Area".format(shape), "s", r_side_12, unit, "s{} x {}".format(extra, num),
-               "{} x {}".format(r_side_12, r_side_34), v1_area, area, round_to, "s2", r_side_34, "", "", "")
+               "{} x {}".format(r_side_12, r_side_34), v1_area, area, round_to, "s2", r_side_34, "", "", "", "")
 
     all_areas.append(area)
 
@@ -189,7 +193,7 @@ def shape_circle():
         c_circumference = round(circumference, round_to)
 
     calc_print("Circle Circumference", "r", c_radius, unit, "2 x pi x r",
-               "2 x pi x {}".format(c_radius), circumference, c_circumference, round_to, "", "", "", "", "")
+               "2 x pi x {}".format(c_radius), circumference, c_circumference, round_to, "", "", "", "", "", "")
 
     all_perimeters.append(c_circumference)
 
@@ -201,7 +205,7 @@ def shape_circle():
         c_area = round(area, round_to)
 
     calc_print("Circle Area", "r", c_radius, unit, "(r x r) x pi",
-               "({} x {}) x pi".format(c_radius, c_radius), area, c_area, round_to, "", "", "", "", "")
+               "({} x {}) x pi".format(c_radius, c_radius), area, c_area, round_to, "", "", "", "", "", "")
 
     all_areas.append(c_area)
 
@@ -234,7 +238,6 @@ def shape_tripar(shape2):
         desired_enter = input("Do You have the base and height (bh), or the sides (s)?").lower()
 
         enter_choice = string_check(desired_enter, bh_or_sides)
-        print("Your Choice: ", enter_choice)
 
         if enter_choice == "Sides":
 
@@ -252,10 +255,25 @@ def shape_tripar(shape2):
 
             if shape2 == "Triangle":
                 perimeter = t_side_1 + t_side_2 + t_side_3
+                equation = "s1 + s2 + s3"
+                step1 = "{} + {} + {}".format(t_side_1, t_side_2, t_side_3)
+                l3 = "s3"
+                n3 = t_side_3
             else:
                 perimeter = t_side_1 + t_side_1 + t_side_2 + t_side_2
-            pt_perimeter = round(perimeter, round_to)
-            print("perimeter is {} {}".format(pt_perimeter, unit))
+                equation = "s1 + s1 + s2 + s2"
+                step1 = "{} + {} + {} + {}".format(t_side_1, t_side_1, t_side_2, t_side_2)
+                l3 = ""
+                n3 = ""
+
+            if round_to == 0:
+                pt_perimeter = ("{:.0f}".format(perimeter))
+            else:
+                pt_perimeter = round(perimeter, round_to)
+
+            calc_print("{} Perimeter".format(shape2), "s1", t_side_1, unit, equation, step1, perimeter, pt_perimeter,
+                       round_to, "s2", t_side_2, l3, n3, "", "")
+
             all_perimeters.append(pt_perimeter)
 
             if shape2 == "Triangle":
@@ -272,10 +290,20 @@ def shape_tripar(shape2):
 
             if shape2 == "Triangle":
                 pt_area = math.sqrt(semi_perimeter * part_a * part_b * part_c)
-                area = round(pt_area, round_to)
+                if round_to == 0:
+                    area = ("{:.0f}".format(pt_area))
+                else:
+                    area = round(pt_area, round_to)
+
+                calc_print("Triangle Area", "s1", t_side_1, unit, "√ p(p − a)(p − b)(p − c)",
+                           "√ {}({} - {})({} − {})({} − {})".format(semi_perimeter, semi_perimeter, t_side_1,
+                                                                    semi_perimeter, t_side_2, semi_perimeter, t_side_3),
+                           pt_area, area, round_to, "s2", t_side_2, "s3", t_side_3, "", semi_perimeter)
+
             else:
                 area = "n/a"
-            print("area is {} {} squared".format(area, unit))
+                print("The area is n/a")
+
             all_areas.append(area)
 
             break
@@ -290,6 +318,7 @@ def shape_tripar(shape2):
 
             if shape2 == "Triangle":
                 perimeter = "n/a"
+                print(" The perimeter is n/a")
             else:
                 perimeter_1 = base + height
                 pt_perimeter = perimeter_1 * 2
@@ -299,7 +328,7 @@ def shape_tripar(shape2):
                     perimeter = round(pt_perimeter, round_to)
 
                 calc_print("Parallelogram Perimeter", "b", base, unit, "2(b + h)", "2({} + {})".format(base, height),
-                           pt_perimeter, perimeter, round_to, "h", height, "", "", "bh")
+                           pt_perimeter, perimeter, round_to, "h", height, "", "", "bh", "")
 
             all_perimeters.append(perimeter)
 
@@ -318,7 +347,7 @@ def shape_tripar(shape2):
                 pt_area = round(area, round_to)
 
             calc_print("{} Area".format(shape2), "b", base, unit, equation, step1, area, pt_area, round_to, "h", height,
-                       "", "", "bh")
+                       "", "", "bh", "")
 
             all_areas.append(pt_area)
 

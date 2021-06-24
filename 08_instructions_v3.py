@@ -54,9 +54,15 @@ def instructions(options):
         print()
         print("*** Instructions ***")
         print()
-        print("* Choose your shape and add in its sides lengths, or its base and height"
-              "(for parallelogram and triangle only), and you will receive the area and perimeter in the units that"
-              "you provided. *")
+        print("1- Choose your shape from the options provided (circle, square, rectangle, triangle or parallelogram)")
+        print("2- Input your units")
+        print("3- Input how many dp(decimal points) you would like the final answers to be rounded to")
+        print("4- Add in the lengths of the shapes sides, or its base and height (for parallelogram and triangle only)")
+        print("5- Watch as the program outputs the perimeter and area of the shape, as well as working out!")
+        print("6- When you have finished, just input 'no', into the shape question spot.")
+        print("7- Input 'y' to have the data (shape, area, perimeter and units) to be writen into a file")
+        print("8- Name the file")
+        print("9- Read the basics presented in a table at the bottom of the program")
 
     return ""
 
@@ -65,4 +71,5 @@ y_n = [
     ["yes", "y"],
     ["no", "n"]
 ]
+
 instructions(y_n)
