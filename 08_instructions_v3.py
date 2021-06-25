@@ -60,9 +60,9 @@ def instructions(options):
         print("4- Add in the lengths of the shapes sides, or its base and height (for parallelogram and triangle only)")
         print("5- Watch as the program outputs the perimeter and area of the shape, as well as working out!")
         print("6- When you have finished, just input 'no', into the shape question spot.")
-        print("7- Input 'y' to have the data (shape, area, perimeter and units) to be writen into a file")
+        print("7- Input 'y' to have the data (shape, area, perimeter and units) writen into a file")
         print("8- Name the file")
-        print("9- Read the basics presented in a table at the bottom of the program")
+        print("9- Read all the basic info, presented in a table at the bottom of the program")
 
     return ""
 
