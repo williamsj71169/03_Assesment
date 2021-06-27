@@ -20,6 +20,9 @@ def num_check(question, error, num_type):
 
 round_to = num_check("Round to nearest...? ", "Can't be zero", int)
 
-num = round(45.5324565, round_to)
+original = 45.5324565
 
-print(num)
+num = round(original, round_to)
+
+print("Original:{}".format(original))
+print("Rounded:{}".format(num))
