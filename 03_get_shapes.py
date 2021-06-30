@@ -32,7 +32,8 @@ valid_shapes = [
     ["triangle", "t", "tri"],
     ["square", "s", "squ"],
     ["rectangle", "rect", "r"],
-    ["circle", "circ", "c"]
+    ["circle", "circ", "c"],
+    ["parallelogram", "paro", "p"]
 ]
 
 shape = "invalid choice"
