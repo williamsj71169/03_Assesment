@@ -388,9 +388,9 @@ def get_shape():
     valid_shapes = [
         ["triangle", "t", "tri"],
         ["square", "s", "squ"],
-        ["rectangle", "rect", "r"],
-        ["circle", "circ", "c"],
-        ["parallelogram", "paro", "p"]
+        ["rectangle", "rec", "r"],
+        ["circle", "cir", "c"],
+        ["parallelogram", "par", "p"]
     ]
 
     desired_shape = ""
@@ -439,7 +439,8 @@ def instructions(options):
         print("*** Instructions ***")
         print()
         print("1- Choose your shape from the options provided (circle, square, rectangle, triangle or parallelogram)")
-        print("2- Input your units")
+        print("    (You can type out the full name, the first letter, of the first 3 letters.)")
+        print("2- Input your units (cm, mm or m)")
         print("3- Input how many dp(decimal points) you would like the final answers to be rounded to")
         print("4- Add in the lengths of the shapes sides, or its base and height (for parallelogram and triangle only)")
         print("5- Watch as the program outputs the perimeter and area of the shape, as well as working out!")
