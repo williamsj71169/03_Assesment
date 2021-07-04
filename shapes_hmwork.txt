@@ -1,0 +1,11 @@
+*** shapes_hmwork ***
+
+              Area Perimeter Unit
+Shape                            
+Circle         3.1       6.3   mm
+Square          16        16   cm
+Rectangle      3.4       8.8    m
+Triangle        10       n/a   mm
+Triangle         6        12   mm
+Parallelogram   12       n/a   mm
+Parallelogram  n/a        14   mm

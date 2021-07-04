@@ -1,4 +1,4 @@
-?def string_check(choice, options, ):
+def string_check(choice, options, ):
 
     is_valid = ""
     chosen = ""

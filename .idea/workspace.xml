@@ -20,17 +20,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="00_Assessment_v5.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="00_Assessment_v5.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Assessment_v5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="433" column="34" selection-start-line="433" selection-start-column="34" selection-end-line="433" selection-end-column="34" />
+            <state relative-caret-position="477">
+              <caret line="408" column="99" selection-start-line="408" selection-start-column="99" selection-end-line="408" selection-end-column="99" />
               <folding>
                 <element signature="e#18#29#0" expanded="true" />
                 <element signature="e#139#745#0" expanded="false" />
+                <element signature="e#912#1177#0" expanded="false" />
                 <element signature="e#1258#1658#0" expanded="false" />
-                <element signature="e#6886#12097#0" expanded="false" />
-                <element signature="e#12173#13582#0" expanded="false" />
+                <marker date="1625439225139" expanded="true" signature="3385:3598" ph="..." />
+                <marker date="1625439225139" expanded="true" signature="5653:5866" ph="..." />
+                <marker date="1625439225139" expanded="true" signature="16137:16773" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="00_Assessment_v6.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Assessment_v6.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="481" column="0" selection-start-line="481" selection-start-column="0" selection-end-line="482" selection-end-column="19" />
+              <folding>
+                <element signature="e#139#745#0" expanded="false" />
+                <element signature="e#912#1177#0" expanded="false" />
+                <element signature="e#1258#1658#0" expanded="false" />
+                <element signature="e#1871#3207#0" expanded="false" />
+                <element signature="e#3276#5529#0" expanded="false" />
+                <element signature="e#5579#7055#0" expanded="false" />
+                <element signature="e#7131#12500#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="09_Parallelogram.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/09_Parallelogram.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="108" column="83" selection-start-line="108" selection-start-column="83" selection-end-line="108" selection-end-column="83" />
+              <folding>
+                <element signature="e#56#659#0" expanded="false" />
+                <element signature="e#708#970#0" expanded="false" />
+                <element signature="e#1138#2475#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -118,7 +152,6 @@
         <option value="$PROJECT_DIR$/04.5_spit_shapes_overall_v6.py" />
         <option value="$PROJECT_DIR$/04.5_spit_shapes_overall_v7.py" />
         <option value="$PROJECT_DIR$/00_Assessment_v2.py" />
-        <option value="$PROJECT_DIR$/0_sandpit.py" />
         <option value="$PROJECT_DIR$/00_sandpit.py" />
         <option value="$PROJECT_DIR$/06_rounding_v2.py" />
         <option value="$PROJECT_DIR$/00_Assessment_v3.py" />
@@ -130,7 +163,9 @@
         <option value="$PROJECT_DIR$/02_num_checker.py" />
         <option value="$PROJECT_DIR$/06_rounding_working.py" />
         <option value="$PROJECT_DIR$/03_get_shapes.py" />
+        <option value="$PROJECT_DIR$/0_sandpit.py" />
         <option value="$PROJECT_DIR$/00_Assessment_v5.py" />
+        <option value="$PROJECT_DIR$/09_Parallelogram.py" />
       </list>
     </option>
   </component>
@@ -164,8 +199,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -450,12 +485,12 @@
     <frame x="936" y="0" width="991" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.013333334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.014358974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34044823" sideWeight="0.50410676" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7107791" sideWeight="0.4958932" order="2" side_tool="false" content_ui="tabs" x="961" y="31" width="958" height="1008" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.91782284" sideWeight="0.4958932" order="2" side_tool="false" content_ui="tabs" x="961" y="31" width="958" height="1008" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -765,50 +800,30 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/00_Assessment_v5.py</url>
-          <line>292</line>
+          <line>294</line>
           <option name="timeStamp" value="206" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/00_Assessment_v5.py</url>
-          <line>295</line>
+          <line>297</line>
           <option name="timeStamp" value="208" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_Assessment_v5.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_Assessment_v5.py</url>
+          <line>104</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="209" />
+      <option name="time" value="212" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01_yes_no.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../02_FRC/00_FRC_v10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="278" column="24" selection-start-line="278" selection-start-column="24" selection-end-line="278" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../01_MMF/Programing/01_MMF_v11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#135#479#0" expanded="false" />
-            <element signature="e#545#975#0" expanded="false" />
-            <element signature="e#1095#1362#0" expanded="false" />
-            <element signature="e#1427#1913#0" expanded="false" />
-            <element signature="e#1973#2579#0" expanded="false" />
-            <element signature="e#4607#4633#0" expanded="false" />
-            <element signature="e#4712#5085#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_sandpit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -839,13 +854,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04_shape_and_calc.py" />
     <entry file="file://$PROJECT_DIR$/03_get_shapes_0.2.py" />
-    <entry file="file://$PROJECT_DIR$/00_sandpit_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../02_FRC/05_round_up.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -908,20 +916,6 @@
             <element signature="e#3224#6854#0" expanded="false" />
             <element signature="e#8872#9025#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0_sandpit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_sandpit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1213,16 +1207,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shapes_hmwork.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_sandpit_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_sandpit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0_sandpit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/00_Assessment_v5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="433" column="34" selection-start-line="433" selection-start-column="34" selection-end-line="433" selection-end-column="34" />
+        <state relative-caret-position="477">
+          <caret line="408" column="99" selection-start-line="408" selection-start-column="99" selection-end-line="408" selection-end-column="99" />
           <folding>
             <element signature="e#18#29#0" expanded="true" />
             <element signature="e#139#745#0" expanded="false" />
+            <element signature="e#912#1177#0" expanded="false" />
             <element signature="e#1258#1658#0" expanded="false" />
-            <element signature="e#6886#12097#0" expanded="false" />
-            <element signature="e#12173#13582#0" expanded="false" />
+            <marker date="1625439225139" expanded="true" signature="3385:3598" ph="..." />
+            <marker date="1625439225139" expanded="true" signature="5653:5866" ph="..." />
+            <marker date="1625439225139" expanded="true" signature="16137:16773" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Assessment_v6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="481" column="0" selection-start-line="481" selection-start-column="0" selection-end-line="482" selection-end-column="19" />
+          <folding>
+            <element signature="e#139#745#0" expanded="false" />
+            <element signature="e#912#1177#0" expanded="false" />
+            <element signature="e#1258#1658#0" expanded="false" />
+            <element signature="e#1871#3207#0" expanded="false" />
+            <element signature="e#3276#5529#0" expanded="false" />
+            <element signature="e#5579#7055#0" expanded="false" />
+            <element signature="e#7131#12500#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09_Parallelogram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="108" column="83" selection-start-line="108" selection-start-column="83" selection-end-line="108" selection-end-column="83" />
+          <folding>
+            <element signature="e#56#659#0" expanded="false" />
+            <element signature="e#708#970#0" expanded="false" />
+            <element signature="e#1138#2475#0" expanded="false" />
           </folding>
         </state>
       </provider>
