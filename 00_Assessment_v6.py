@@ -43,7 +43,11 @@ def num_check(question, error, num_type):
         try:
             response = num_type(input(question))
 
-            if response <= -1:
+            if question == "Round to how many dp??":
+                if response >= -1:
+                    return response
+
+            elif response <= 0:
                 print(error)
 
             else:
@@ -203,7 +207,7 @@ def shape_circle():
 
     c_radius = num_check("What is the radius (half of diameter)? ", "Please enter an number more than 0\n", float)
 
-    print("the radius is {} {}".format(c_radius, unit))
+    print("The radius is {} {}".format(c_radius, unit))
 
     circumference = 2 * 3.1415926 * c_radius
 
@@ -238,7 +242,6 @@ def shape_circle():
 
 # function for Triangle and Parallelogram
 def shape_tripar(shape2):
-
     # Triangle and Parallelogram:
 
     unit = "invalid choice"
@@ -252,13 +255,17 @@ def shape_tripar(shape2):
 
     bh_or_sides = [
         ["base and height", "b&h", "b & h", "bh", "b", "base", "height", "h"],
-        ["sides", "s", "side"]
+        ["sides", "s", "side"],
+        ["base, height, side", "base, height and 1 side", "bhs"]
     ]
 
     desired_loop = ""
     while desired_loop != "xxx" or desired_loop != "no":
 
-        desired_enter = input("Do you have the base and height (bh), or the sides (s)?").lower()
+        if shape2 == "Triangle":
+            desired_enter = input("Do you have the base and height (bh), or the sides (s)?").lower()
+        else:
+            desired_enter = input("Do you have: base and height(bh), 2 sides(s) or the base, height and 1 side(bhs)? ")
 
         enter_choice = string_check(desired_enter, bh_or_sides)
 
@@ -346,8 +353,8 @@ def shape_tripar(shape2):
             base = num_check("What is the base?", "Please enter an number more than 0\n", float)
             height = num_check("What is the height?", "Please enter an number more than 0\n", float)
 
-            print("the base is {} {}".format(base, unit))
-            print("the height is {} {}".format(height, unit))
+            print("The base is {} {}".format(base, unit))
+            print("The height is {} {}".format(height, unit))
 
             perimeter = "n/a"
             print()
@@ -378,6 +385,41 @@ def shape_tripar(shape2):
             pt_area_u = "{} {}²".format(pt_area, unit)
 
             all_areas.append(pt_area_u)
+
+        elif enter_choice == "Base, Height, Side":
+
+            base = num_check("What is the base?", "Please enter an number more than 0\n", float)
+            height = num_check("What is the height?", "Please enter an number more than 0\n", float)
+            side = num_check("What is the side? ", "Please enter an number more than 0\n", float)
+
+            print("The base is {} {}".format(base, unit))
+            print("The height is {} {}".format(height, unit))
+            print("The side is {} {}".format(side, unit))
+
+            perimeter = base + base + side + side
+
+            if round_to == 0:
+                p_perimeter = ("{:.0f}".format(perimeter))
+            else:
+                p_perimeter = round(perimeter, round_to)
+
+            calc_print("Parallelogram Perimeter", "b", base, unit, "b + b + s + s",
+                       "{} + {} + {} + {}".format(base, base, side, side), perimeter, p_perimeter, round_to,
+                       "s", side, "", "", "", "")
+
+            p_perimeter_u = "{} {}".format(p_perimeter, unit)
+
+            all_perimeters.append(p_perimeter_u)
+
+            area = base * height
+
+            if round_to == 0:
+                p_area = ("{:.0f}".format(area))
+            else:
+                p_area = round(area, round_to)
+
+            calc_print("Parallelogram Area", "b", base, unit, "b * h",
+                       "{} * {}".format(base, height), area, p_area, round_to, "h", height, "", "", "", "")
 
         else:
             print("Sorry, That is not a valid input.")
