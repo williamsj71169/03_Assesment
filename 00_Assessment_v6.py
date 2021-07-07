@@ -137,16 +137,16 @@ def shape_squrec(shape):
     else:
         side_34 = 0
 
-    r_side_12 = round(side_12, round_to)
-    print("side 1/2 is {} {}".format(r_side_12, unit))
+    print(side_12)
+    print("side 1/2 is {} {}".format(side_12, unit))
 
     if shape == "Rectangle":
-        r_side_34 = round(side_34, round_to)
-        print("side 3/4 is {} {}".format(r_side_34, unit))
-    else:
-        r_side_34 = r_side_12
 
-    v1_perimeter = r_side_12 + r_side_12 + r_side_34 + r_side_34
+        print("side 3/4 is {} {}".format(side_34, unit))
+    else:
+        side_34 = side_12
+
+    v1_perimeter = side_12 + side_12 + side_34 + side_34
 
     if round_to == 0:
         perimeter = ("{:.0f}".format(v1_perimeter))
@@ -155,19 +155,19 @@ def shape_squrec(shape):
 
     if shape == "Rectangle":
         equation = "s1 + s1 + s2 + s2"
-        step_1 = "{} + {} + {} + {}".format(r_side_12, r_side_12, r_side_34, r_side_34)
+        step_1 = "{} + {} + {} + {}".format(side_12, side_12, side_34, side_34)
     else:
         equation = "s x 4"
-        step_1 = "{} x 4".format(r_side_12)
+        step_1 = "{} x 4".format(side_12)
 
-    calc_print("{} Perimeter".format(shape), "s1", r_side_12, unit, equation, step_1, v1_perimeter, perimeter, round_to,
-               "s2", r_side_34, "", "", "", "")
+    calc_print("{} Perimeter".format(shape), "s1", side_12, unit, equation, step_1, v1_perimeter, perimeter, round_to,
+               "s2", side_34, "", "", "", "")
 
     perimeter_u = "{} {}".format(perimeter, unit)
 
     all_perimeters.append(perimeter_u)
 
-    v1_area = r_side_12 * r_side_34
+    v1_area = side_12 * side_34
 
     if round_to == 0:
         area = ("{:.0f}".format(v1_area))
@@ -181,8 +181,8 @@ def shape_squrec(shape):
         num = "s"
         extra = ""
 
-    calc_print("{} Area".format(shape), "s", r_side_12, unit, "s{} x {}".format(extra, num),
-               "{} x {}".format(r_side_12, r_side_34), v1_area, area, round_to, "s2", r_side_34, "", "", "", "")
+    calc_print("{} Area".format(shape), "s", side_12, unit, "s{} x {}".format(extra, num),
+               "{} x {}".format(side_12, side_34), v1_area, area, round_to, "s2", side_34, "", "", "", "")
 
     area_u = "{} {}²".format(area, unit)
 
